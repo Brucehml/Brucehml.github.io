@@ -6,12 +6,15 @@
         <title>图片二维码识别</title>
         <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cozmo.github.io/jsQR/jsQR.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
     </head>
     <body>
         <span lan_id="bc">选择图片</span> <input type="file"  id="pictureChange"/>
         <div>
             <h2>识别结果：</h2>
             <ul id="result">
+<li id="copyMy">未选择图片</li>
+<button id='b' onClick='copyFn()'>点击复制</button>
             </ul>
         </div>
     </body>
@@ -28,6 +31,12 @@
                 }
             }
         })
+function copyFn() {
+      var val = document.getElementById('copyMy');
+      window.getSelection().selectAllChildren(val);
+      document.execCommand("Copy");
+    }
+
         function base64ToqR(data) {
             var c = document.getElementById("qrcanvas");
             var ctx = c.getContext("2d");
@@ -50,7 +59,16 @@
             };
         }
         function showCode(code){
-            $("#result").append("<li>"+code+"</li>")
+            $("#copyMy").remove()
+            $("#b").remove()
+            $("#result").prepend("<li id='copyMy'>"+code+"</li><button id='b' onClick='copyFn()'>点击复制</button>")
         }
+function copyFn() {
+      var val = document.getElementById('copyMy');
+      window.getSelection().selectAllChildren(val);
+      document.execCommand("Copy");
+    }
+
+
     </script>
 </html>
