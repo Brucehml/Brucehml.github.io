@@ -2,25 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://huangmingli.ml</id>
     <title>黄明礼的博客</title>
-    <updated>2020-11-25T13:53:11.024Z</updated>
+    <updated>2021-08-21T12:39:52.128Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://huangmingli.ml"/>
     <link rel="self" href="http://huangmingli.ml/atom.xml"/>
     <subtitle>黄明礼，一名小学生，对编程非常感兴趣，编写过许多有趣的小程序。</subtitle>
     <logo>http://huangmingli.ml/images/avatar.png</logo>
     <icon>http://huangmingli.ml/favicon.ico</icon>
-    <rights>All rights reserved 2020, 黄明礼的博客</rights>
-    <entry>
-        <title type="html"><![CDATA[认识和安装Python]]></title>
-        <id>http://huangmingli.ml/post/Yc9CYbUw2/</id>
-        <link href="http://huangmingli.ml/post/Yc9CYbUw2/">
-        </link>
-        <updated>2020-06-20T05:28:04.000Z</updated>
-        <content type="html"><![CDATA[<p>视频：</p>
-<iframe src="//player.bilibili.com/player.html?aid=200475966&bvid=BV14z411z76W&cid=183180970&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-<p>视频地址：<a href="https://www.bilibili.com/video/BV14z411z76W/">https://www.bilibili.com/video/BV14z411z76W/</a></p>
-]]></content>
-    </entry>
+    <rights>All rights reserved 2021, 黄明礼的博客</rights>
     <entry>
         <title type="html"><![CDATA[C++坦克大战小游戏]]></title>
         <id>http://huangmingli.ml/post/Aimzsf-cV/</id>
@@ -467,6 +456,26 @@ motrix : https://share.weiyun.com/5zsZ6RI</p>
         <title type="html"><![CDATA[如何激活Windows10专业版（亲测好用）]]></title>
         <id>http://huangmingli.ml/post/ru-he-ji-huo-windows10-zhuan-ye-ban-qin-ce-hao-yong/</id>
         <link href="http://huangmingli.ml/post/ru-he-ji-huo-windows10-zhuan-ye-ban-qin-ce-hao-yong/">
+        </link>
+        <updated>2020-03-03T03:49:54.000Z</updated>
+        <content type="html"><![CDATA[<p>由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？<img src="http://huangmingli.ml/post-images/1583216407297.jpg" alt="" loading="lazy"><br>
+尤其是一些买了正版Win7的，明明是正版，但一升级就显示未激活，这怎么办呢？没事，这里我给大家带来了激活方法。</p>
+<p>对于一些运气好的，可能从网上随便找一个激活码就OK了，但至少我不是这样。在我这台电脑上，各种错误都有，好不容易找到了一款后，又把我的专业版变成教育版了。所以，这里推荐大家用小马激活工具（本人用微软win7系统升级下载工具下载的，32位和64位都可以用）</p>
+<p>小马激活工具官网：http://www.pccppc.com/<br>
+注意：如果电脑右侧弹出了Windows病毒拦截，请立即点开，并选择“操作”--&gt;“允许在设备上”。<br>
+如果杀毒软件报毒，请点击“添加信任”。<br>
+如果弹出这样的窗口<img src="http://huangmingli.ml/post-images/1583217795511.PNG" alt="" loading="lazy">请点击否。</p>
+<p>在保存好未保存的文件后，我们点击“立即体验正版”即可。<br>
+<img src="http://huangmingli.ml/post-images/1583218030631.PNG" alt="" loading="lazy"><br>
+软件会帮你自动激活并重启。</p>
+<p>2020/3/23注：此方法在部分电脑上无法使用，可以试试暴风激活<br>
+2020/4/19注：小马激活最新版可能带有病毒</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何激活Windows10专业版（亲测好用）]]></title>
+        <id>http://huangmingli.ml/post/win/</id>
+        <link href="http://huangmingli.ml/post/win/">
         </link>
         <updated>2020-03-03T03:49:54.000Z</updated>
         <content type="html"><![CDATA[<p>由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？<img src="http://huangmingli.ml/post-images/1583216407297.jpg" alt="" loading="lazy"><br>
