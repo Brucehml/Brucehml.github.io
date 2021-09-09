@@ -32,12 +32,12 @@
         function ChangeM3u8(){
             var play = document.getElementById('video-url').value
             var url = location.href
-            url = url.split('?')[0]+'play/?play='+play
+            url = url.split('?')[0]+'?play='+play
             location.href = url
         }
         function QueryString(qs){
             var url = location.href
-            url = url.replace('?','?&').split('&')
+            url = url.replace('?','?&').split('&')[-1]
             var re = ''
             for(var i=1;i < url.length;i++){
                 if(url[i].indexOf(qs+'=')==0){
