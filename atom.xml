@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://huangmingli.ml</id>
     <title>黄明礼的博客</title>
-    <updated>2022-02-11T09:40:04.643Z</updated>
+    <updated>2022-02-11T10:28:25.755Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://huangmingli.ml"/>
     <link rel="self" href="http://huangmingli.ml/atom.xml"/>
@@ -17,95 +17,6 @@
         </link>
         <updated>2022-02-11T09:38:27.000Z</updated>
         <content type="html"><![CDATA[<p>聊天到评论区</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[C++坦克大战小游戏]]></title>
-        <id>http://huangmingli.ml/post/Aimzsf-cV/</id>
-        <link href="http://huangmingli.ml/post/Aimzsf-cV/">
-        </link>
-        <updated>2020-05-09T04:32:46.000Z</updated>
-        <content type="html"><![CDATA[<p>坦克大战深受很多人喜爱，今天，我也来写一个坦克大战<br>
-代码有点长，先给出下载链接<br>
-&lt; https://share.weiyun.com/5xFH7rD &gt;下载</p>
-<p>cpp是源码，exe是程序</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用Python和C++实现卡机病毒---100个cmd窗口]]></title>
-        <id>http://huangmingli.ml/post/yon/</id>
-        <link href="http://huangmingli.ml/post/yon/">
-        </link>
-        <updated>2020-03-30T11:00:32.000Z</updated>
-        <content type="html"><![CDATA[<p>上代码：<br>
-Python：</p>
-<pre><code class="language-python">import os
-#将下面改为&quot;while 1:&quot;会永远执行（直到叉掉或关机）
-for x in range(1,100):
-    os.system(&quot;start&quot;)
-
-</code></pre>
-<p>C++：</p>
-<pre><code class="language-cpp">#include &lt;windows.h&gt;
-using namespace std;
-int main()
-{
-/*永远执行需要将下面一句改为
-    &quot;while(1)&quot;*/
-	for(int i = 1;i &lt;= 100;i++)
-	{
-		system(&quot;start&quot;);
-	}
-	return 0;
-}
-</code></pre>
-<p>视频可以到B站上看：<a href="https://www.bilibili.com/video/BV1sC4y147b8/">https://www.bilibili.com/video/BV1sC4y147b8/</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[用Python和C++实现卡机病毒---100个cmd窗口]]></title>
-        <id>http://huangmingli.ml/post/yong-python-he-cshi-xian-qia-ji-bing-du-100-ge-cmd-chuang-kou/</id>
-        <link href="http://huangmingli.ml/post/yong-python-he-cshi-xian-qia-ji-bing-du-100-ge-cmd-chuang-kou/">
-        </link>
-        <updated>2020-03-30T11:00:32.000Z</updated>
-        <content type="html"><![CDATA[<p>上代码：<br>
-Python：</p>
-<pre><code class="language-python">import os
-#将下面改为&quot;while 1:&quot;会永远执行（直到叉掉或关机）
-for x in range(1,100):
-    os.system(&quot;start&quot;)
-
-</code></pre>
-<p>C++：</p>
-<pre><code class="language-cpp">#include &lt;windows.h&gt;
-using namespace std;
-int main()
-{
-/*永远执行需要将下面一句改为
-    &quot;while(1)&quot;*/
-	for(int i = 1;i &lt;= 100;i++)
-	{
-		system(&quot;start&quot;);
-	}
-	return 0;
-}
-</code></pre>
-<p>视频可以到B站上看：<a href="https://www.bilibili.com/video/BV1sC4y147b8/">https://www.bilibili.com/video/BV1sC4y147b8/</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解决我的博客访问慢的方法]]></title>
-        <id>http://huangmingli.ml/post/jie-jue-wo-de-bo-ke-fang-wen-man-de-fang-fa/</id>
-        <link href="http://huangmingli.ml/post/jie-jue-wo-de-bo-ke-fang-wen-man-de-fang-fa/">
-        </link>
-        <updated>2020-03-27T07:32:32.000Z</updated>
-        <content type="html"><![CDATA[<p>由于本人没有钱💴，所以没法买某某云的域名，看了洛谷日报上的文章，用的是Github的二级域名。<br>
-Github是外国网站，访问比较慢，所以要想加速，就挂VPN（也叫科学上网工具）</p>
-<p>这里推荐一款VPN：setupVPN<a href="https://base1-sv.diltwo.com//public/Chrome/Chrome-SetupVPN-3.8.8.crx">https://base1-sv.diltwo.com//public/Chrome/Chrome-SetupVPN-3.8.8.crx</a>安装时注意：请用谷歌开发者模式安装！！！</p>
-<p>安装好后，请选择英国通道（本人的电脑无法用美国、意大利等国的通道）</p>
-<p>不要买VIP    有钱人忽略</p>
-<p>2020/4/19注：新网址<a href="http://hmlblog.ml">http://hmlblog.ml</a></p>
-<p>2020/5/8注：新网址<a href="http://huangmingli.ml">http://huangmingli.ml</a></p>
 ]]></content>
     </entry>
     <entry>
@@ -404,81 +315,6 @@ while True:
 </code></pre>
 <p>socket是Python自带库，无需安装</p>
 <p>很简单,只能远程运行cmd命令,不过输入&quot;backdoor&quot;命令可以自动在Server上创建新用户。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[非常好的下载器motrix]]></title>
-        <id>http://huangmingli.ml/post/fei-chang-hao-de-xia-zai-qi-motrix/</id>
-        <link href="http://huangmingli.ml/post/fei-chang-hao-de-xia-zai-qi-motrix/">
-        </link>
-        <updated>2020-03-21T10:57:54.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="http://huangmingli.ml/post-images/1584789058372.png" alt="" loading="lazy"><br>
-一款全能的下载工具<br>
-支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源<br>
-<img src="http://huangmingli.ml/post-images/1584789244526.png" alt="" loading="lazy"></p>
-<p>还支持Windows、Linux、MacOS系统。</p>
-<p>它拥有<br>
-🕹 简洁明了的图形操作界面<br>
-🦄 支持BT和磁力链任务<br>
-💾 支持下载百度云盘资源<br>
-🎛 最高支持 10 个任务同时下载<br>
-🚀 单任务最高支持 64 线程下载<br>
-🕶 模拟用户代理UA<br>
-🔔 下载完成后通知<br>
-💻 支持触控栏快捷键(Mac 专享)<br>
-🤖 常驻系统托盘，操作更加便捷<br>
-🌑 深色模式New<br>
-🗑 移除任务时可同时删除相关文件<br>
-🌍 国际化(可选择简体中文或英文界面)</p>
-<p>是个很好的下载器<br>
-附上官网地址：https://motrix.app/zh-CN</p>
-<p>由于官网感觉是外国网站，所以我提供国内网盘下载链接：https://share.weiyun.com/5zsZ6RI</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[黄明礼下载站]]></title>
-        <id>http://huangmingli.ml/post/wen-jian-shu-ju-ku/</id>
-        <link href="http://huangmingli.ml/post/wen-jian-shu-ju-ku/">
-        </link>
-        <updated>2020-03-04T03:27:51.000Z</updated>
-        <content type="html"><![CDATA[<p>提交软件：3172456158@qq.com<br>
-你可以在此下载文件：<br>
-motrix : https://share.weiyun.com/5zsZ6RI</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解决不能访问我的博客的方法]]></title>
-        <id>http://huangmingli.ml/post/jie-jue-bu-neng-fang-wen-wo-de-bo-ke-de-fang-fa/</id>
-        <link href="http://huangmingli.ml/post/jie-jue-bu-neng-fang-wen-wo-de-bo-ke-de-fang-fa/">
-        </link>
-        <updated>2020-03-03T08:33:07.000Z</updated>
-        <content type="html"><![CDATA[<p>最近，有人向我反映，说博客不能访问，下面我就讲讲解决方法：<br>
-第一种：如果网站出现这种情况：<img src="http://huangmingli.ml/post-images/1583224991973.PNG" alt="" loading="lazy"><br>
-将Brucehml.github.com改为Brucehml.github.io</p>
-<p>第二种：如果网址出现这种情况<img src="http://huangmingli.ml/post-images/1583225162957.PNG" alt="" loading="lazy">以及各种无法访问的情况，请检查地址栏是不是：https://Brucehml.github.io 尤其注意https:// 和 .io。</p>
-<p>2020/4/19注：如果用的是新网址<a href="http://hmlblog.ml">http://hmlblog.ml</a>请注意协议为http，后缀为ml<br>
-未来将开通https网站</p>
-<p>2020/5/8注：新域名<a href="http://huangmingli.ml">http://huangmingli.ml</a>请注意协议为http，后缀为ml</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何激活Windows10专业版（亲测好用）]]></title>
-        <id>http://huangmingli.ml/post/ru-he-ji-huo-windows10-zhuan-ye-ban-qin-ce-hao-yong/</id>
-        <link href="http://huangmingli.ml/post/ru-he-ji-huo-windows10-zhuan-ye-ban-qin-ce-hao-yong/">
-        </link>
-        <updated>2020-03-03T03:49:54.000Z</updated>
-        <content type="html"><![CDATA[<p>由于微软停止了对Windows7的支持，许多Win7的用户都更新了Windows10。可是，当更新Windows10时，显示未激活，这怎么办呢？<img src="http://huangmingli.ml/post-images/1583216407297.jpg" alt="" loading="lazy"><br>
-尤其是一些买了正版Win7的，明明是正版，但一升级就显示未激活，这怎么办呢？没事，这里我给大家带来了激活方法。</p>
-<p>对于一些运气好的，可能从网上随便找一个激活码就OK了，但至少我不是这样。在我这台电脑上，各种错误都有，好不容易找到了一款后，又把我的专业版变成教育版了。所以，这里推荐大家用小马激活工具（本人用微软win7系统升级下载工具下载的，32位和64位都可以用）</p>
-<p>小马激活工具官网：http://www.pccppc.com/<br>
-注意：如果电脑右侧弹出了Windows病毒拦截，请立即点开，并选择“操作”--&gt;“允许在设备上”。<br>
-如果杀毒软件报毒，请点击“添加信任”。<br>
-如果弹出这样的窗口<img src="http://huangmingli.ml/post-images/1583217795511.PNG" alt="" loading="lazy">请点击否。</p>
-<p>在保存好未保存的文件后，我们点击“立即体验正版”即可。<br>
-<img src="http://huangmingli.ml/post-images/1583218030631.PNG" alt="" loading="lazy"><br>
-软件会帮你自动激活并重启。</p>
-<p>2020/3/23注：此方法在部分电脑上无法使用，可以试试暴风激活<br>
-2020/4/19注：小马激活最新版可能带有病毒</p>
 ]]></content>
     </entry>
 </feed>
